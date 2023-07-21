@@ -1,0 +1,3264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ipLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ipLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ipLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 31</value>
+  </data>
+  <data name="ipLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="ipLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="ipLab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ipLab.Text" xml:space="preserve">
+    <value>ip地址：</value>
+  </data>
+  <data name="&gt;&gt;ipLab.Name" xml:space="preserve">
+    <value>ipLab</value>
+  </data>
+  <data name="&gt;&gt;ipLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ipLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;ipLab.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tcpPortLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tcpPortLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tcpPortLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 30</value>
+  </data>
+  <data name="tcpPortLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="tcpPortLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="tcpPortLab.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tcpPortLab.Text" xml:space="preserve">
+    <value>TCP端口：</value>
+  </data>
+  <data name="&gt;&gt;tcpPortLab.Name" xml:space="preserve">
+    <value>tcpPortLab</value>
+  </data>
+  <data name="&gt;&gt;tcpPortLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcpPortLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortLab.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ipTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 25</value>
+  </data>
+  <data name="ipTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="ipTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="ipTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ipTbx.Text" xml:space="preserve">
+    <value>192.168.1.1</value>
+  </data>
+  <data name="&gt;&gt;ipTbx.Name" xml:space="preserve">
+    <value>ipTbx</value>
+  </data>
+  <data name="&gt;&gt;ipTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ipTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;ipTbx.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="videoPathLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="videoPathLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="videoPathLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="videoPathLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 36</value>
+  </data>
+  <data name="videoPathLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="videoPathLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="videoPathLab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="videoPathLab.Text" xml:space="preserve">
+    <value>视频播放目录：</value>
+  </data>
+  <data name="&gt;&gt;videoPathLab.Name" xml:space="preserve">
+    <value>videoPathLab</value>
+  </data>
+  <data name="&gt;&gt;videoPathLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;videoPathLab.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;videoPathLab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="videoPathTbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="videoPathTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 33</value>
+  </data>
+  <data name="videoPathTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="videoPathTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="videoPathTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="videoPathTbx.Text" xml:space="preserve">
+    <value>D:/TrPlayer/Movies/</value>
+  </data>
+  <data name="&gt;&gt;videoPathTbx.Name" xml:space="preserve">
+    <value>videoPathTbx</value>
+  </data>
+  <data name="&gt;&gt;videoPathTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;videoPathTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;videoPathTbx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="videoPathBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="videoPathBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="videoPathBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="videoPathBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 30</value>
+  </data>
+  <data name="videoPathBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="videoPathBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 27</value>
+  </data>
+  <data name="videoPathBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="videoPathBtn.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;videoPathBtn.Name" xml:space="preserve">
+    <value>videoPathBtn</value>
+  </data>
+  <data name="&gt;&gt;videoPathBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;videoPathBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;videoPathBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="imgPathLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imgPathLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="imgPathLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgPathLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 75</value>
+  </data>
+  <data name="imgPathLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="imgPathLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="imgPathLab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="imgPathLab.Text" xml:space="preserve">
+    <value>图片播放目录：</value>
+  </data>
+  <data name="&gt;&gt;imgPathLab.Name" xml:space="preserve">
+    <value>imgPathLab</value>
+  </data>
+  <data name="&gt;&gt;imgPathLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgPathLab.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;imgPathLab.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="imgPathTbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="imgPathTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 72</value>
+  </data>
+  <data name="imgPathTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="imgPathTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="imgPathTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="imgPathTbx.Text" xml:space="preserve">
+    <value>D:/TrPlayer/images/</value>
+  </data>
+  <data name="&gt;&gt;imgPathTbx.Name" xml:space="preserve">
+    <value>imgPathTbx</value>
+  </data>
+  <data name="&gt;&gt;imgPathTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgPathTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;imgPathTbx.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="imgPathBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="imgPathBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="imgPathBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="imgPathBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 69</value>
+  </data>
+  <data name="imgPathBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="imgPathBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 27</value>
+  </data>
+  <data name="imgPathBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="imgPathBtn.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;imgPathBtn.Name" xml:space="preserve">
+    <value>imgPathBtn</value>
+  </data>
+  <data name="&gt;&gt;imgPathBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imgPathBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;imgPathBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="pptPathLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pptPathLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="pptPathLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pptPathLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 112</value>
+  </data>
+  <data name="pptPathLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="pptPathLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 14</value>
+  </data>
+  <data name="pptPathLab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="pptPathLab.Text" xml:space="preserve">
+    <value>PPT播放目录：</value>
+  </data>
+  <data name="&gt;&gt;pptPathLab.Name" xml:space="preserve">
+    <value>pptPathLab</value>
+  </data>
+  <data name="&gt;&gt;pptPathLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pptPathLab.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;pptPathLab.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pptPathTbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="pptPathTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 109</value>
+  </data>
+  <data name="pptPathTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pptPathTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="pptPathTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="pptPathTbx.Text" xml:space="preserve">
+    <value>D:/TrPlayer/ppt/</value>
+  </data>
+  <data name="&gt;&gt;pptPathTbx.Name" xml:space="preserve">
+    <value>pptPathTbx</value>
+  </data>
+  <data name="&gt;&gt;pptPathTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pptPathTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;pptPathTbx.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="pptPathBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="pptPathBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="pptPathBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pptPathBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 106</value>
+  </data>
+  <data name="pptPathBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="pptPathBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 27</value>
+  </data>
+  <data name="pptPathBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="pptPathBtn.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;pptPathBtn.Name" xml:space="preserve">
+    <value>pptPathBtn</value>
+  </data>
+  <data name="&gt;&gt;pptPathBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pptPathBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;pptPathBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="webPathLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="webPathLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="webPathLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="webPathLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 150</value>
+  </data>
+  <data name="webPathLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="webPathLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="webPathLab.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="webPathLab.Text" xml:space="preserve">
+    <value>网页播放目录：</value>
+  </data>
+  <data name="&gt;&gt;webPathLab.Name" xml:space="preserve">
+    <value>webPathLab</value>
+  </data>
+  <data name="&gt;&gt;webPathLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webPathLab.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;webPathLab.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="webPathTbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="webPathTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 147</value>
+  </data>
+  <data name="webPathTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="webPathTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="webPathTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="webPathTbx.Text" xml:space="preserve">
+    <value>D:/TrPlayer/web/</value>
+  </data>
+  <data name="&gt;&gt;webPathTbx.Name" xml:space="preserve">
+    <value>webPathTbx</value>
+  </data>
+  <data name="&gt;&gt;webPathTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webPathTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;webPathTbx.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="webPathBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="webPathBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="webPathBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="webPathBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 144</value>
+  </data>
+  <data name="webPathBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="webPathBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 27</value>
+  </data>
+  <data name="webPathBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="webPathBtn.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;webPathBtn.Name" xml:space="preserve">
+    <value>webPathBtn</value>
+  </data>
+  <data name="&gt;&gt;webPathBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;webPathBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;webPathBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="standbyBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="standbyBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="standbyBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="standbyBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 183</value>
+  </data>
+  <data name="standbyBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="standbyBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 27</value>
+  </data>
+  <data name="standbyBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="standbyBtn.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.Name" xml:space="preserve">
+    <value>standbyBtn</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="standbyTbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="standbyTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 186</value>
+  </data>
+  <data name="standbyTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="standbyTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="standbyTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="standbyTbx.Text" xml:space="preserve">
+    <value>D:/TrPlayer/Standby/</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Name" xml:space="preserve">
+    <value>standbyTbx</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 189</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 14</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>待 机 图 片：</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="palyPathGbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="palyPathGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="palyPathGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="palyPathGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="palyPathGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 222</value>
+  </data>
+  <data name="palyPathGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="palyPathGbx.Text" xml:space="preserve">
+    <value>播放目录设置</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Name" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="setMacBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="setMacBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="setMacBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="setMacBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 67</value>
+  </data>
+  <data name="setMacBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="setMacBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 27</value>
+  </data>
+  <data name="setMacBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="setMacBtn.Text" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.Name" xml:space="preserve">
+    <value>setMacBtn</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="setIpBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="setIpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="setIpBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="setIpBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 25</value>
+  </data>
+  <data name="setIpBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="setIpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 27</value>
+  </data>
+  <data name="setIpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="setIpBtn.Text" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Name" xml:space="preserve">
+    <value>setIpBtn</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="udpPortSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="udpPortSetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="udpPortSetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="udpPortSetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 66</value>
+  </data>
+  <data name="udpPortSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="udpPortSetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 27</value>
+  </data>
+  <data name="udpPortSetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="udpPortSetBtn.Text" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Name" xml:space="preserve">
+    <value>udpPortSetBtn</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tcpPortSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="tcpPortSetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="tcpPortSetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tcpPortSetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>653, 24</value>
+  </data>
+  <data name="tcpPortSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="tcpPortSetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 27</value>
+  </data>
+  <data name="tcpPortSetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="tcpPortSetBtn.Text" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Name" xml:space="preserve">
+    <value>tcpPortSetBtn</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="udpPortLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="udpPortLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="udpPortLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 72</value>
+  </data>
+  <data name="udpPortLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="udpPortLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="udpPortLab.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="udpPortLab.Text" xml:space="preserve">
+    <value>UDP端口：</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Name" xml:space="preserve">
+    <value>udpPortLab</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="udpPortTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 69</value>
+  </data>
+  <data name="udpPortTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="udpPortTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="udpPortTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="udpPortTbx.Text" xml:space="preserve">
+    <value>6600</value>
+  </data>
+  <data name="udpPortTbx.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Name" xml:space="preserve">
+    <value>udpPortTbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="getMacBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="getMacBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="getMacBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="getMacBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 67</value>
+  </data>
+  <data name="getMacBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="getMacBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 27</value>
+  </data>
+  <data name="getMacBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="getMacBtn.Text" xml:space="preserve">
+    <value>获取</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Name" xml:space="preserve">
+    <value>getMacBtn</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="macLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="macLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="macLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 73</value>
+  </data>
+  <data name="macLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="macLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="macLab.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="macLab.Text" xml:space="preserve">
+    <value>MAC地址：</value>
+  </data>
+  <data name="&gt;&gt;macLab.Name" xml:space="preserve">
+    <value>macLab</value>
+  </data>
+  <data name="&gt;&gt;macLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;macLab.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="macTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 67</value>
+  </data>
+  <data name="macTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="macTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="macTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="macTbx.Text" xml:space="preserve">
+    <value>11-22-33-44-55-66</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Name" xml:space="preserve">
+    <value>macTbx</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;macTbx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="getIpBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="getIpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="getIpBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="getIpBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 25</value>
+  </data>
+  <data name="getIpBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="getIpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 27</value>
+  </data>
+  <data name="getIpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="getIpBtn.Text" xml:space="preserve">
+    <value>获取</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Name" xml:space="preserve">
+    <value>getIpBtn</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tcpPortTbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 27</value>
+  </data>
+  <data name="tcpPortTbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="tcpPortTbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="tcpPortTbx.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tcpPortTbx.Text" xml:space="preserve">
+    <value>5500</value>
+  </data>
+  <data name="tcpPortTbx.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Name" xml:space="preserve">
+    <value>tcpPortTbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="netGbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="netGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
+  </data>
+  <data name="netGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="netGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="netGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 109</value>
+  </data>
+  <data name="netGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="netGbx.Text" xml:space="preserve">
+    <value>网络配置</value>
+  </data>
+  <data name="&gt;&gt;netGbx.Name" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;netGbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;netGbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;netGbx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="setNetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="setNetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="setNetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="setNetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 21</value>
+  </data>
+  <data name="setNetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="setNetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="setNetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="setNetBtn.Text" xml:space="preserve">
+    <value>网卡设置</value>
+  </data>
+  <data name="&gt;&gt;setNetBtn.Name" xml:space="preserve">
+    <value>setNetBtn</value>
+  </data>
+  <data name="&gt;&gt;setNetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setNetBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;setNetBtn.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 17</value>
+  </metadata>
+  <metadata name="myMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>471, 17</value>
+  </metadata>
+  <data name="显示主程序ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="显示主程序ToolStripMenuItem.Text" xml:space="preserve">
+    <value>显示主程序</value>
+  </data>
+  <data name="技术支持.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="技术支持.Text" xml:space="preserve">
+    <value>技术支持&amp;官网</value>
+  </data>
+  <data name="技术支持.ToolTipText" xml:space="preserve">
+    <value>打开官网</value>
+  </data>
+  <data name="开启启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="开启启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开启启动</value>
+  </data>
+  <data name="关闭开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="关闭开机启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关闭开机启动</value>
+  </data>
+  <data name="退出.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
+  </data>
+  <data name="退出.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="myMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 114</value>
+  </data>
+  <data name="&gt;&gt;myMenu.Name" xml:space="preserve">
+    <value>myMenu</value>
+  </data>
+  <data name="&gt;&gt;myMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="开启ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="开启ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="关闭ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="关闭ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 22</value>
+  </data>
+  <data name="开机启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开机启动</value>
+  </data>
+  <data name="文件ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="文件ToolStripMenuItem.Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="定时关机设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="定时关机设置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>定时关机设置</value>
+  </data>
+  <data name="功能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="功能ToolStripMenuItem.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="帮助文档ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="帮助文档ToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助文档</value>
+  </data>
+  <data name="技术支持ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="技术支持ToolStripMenuItem.Text" xml:space="preserve">
+    <value>技术支持 官网</value>
+  </data>
+  <data name="关于ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="关于ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>关于软件</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 20</value>
+  </data>
+  <data name="关于ToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助（H）</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>753, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="standPlayCbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="standPlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="standPlayCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 183</value>
+  </data>
+  <data name="standPlayCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="standPlayCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 18</value>
+  </data>
+  <data name="standPlayCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="standPlayCbx.Text" xml:space="preserve">
+    <value>播放完毕显示待机画面</value>
+  </data>
+  <data name="&gt;&gt;standPlayCbx.Name" xml:space="preserve">
+    <value>standPlayCbx</value>
+  </data>
+  <data name="&gt;&gt;standPlayCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;standPlayCbx.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;standPlayCbx.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radmonPlayBtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radmonPlayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radmonPlayBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 112</value>
+  </data>
+  <data name="radmonPlayBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="radmonPlayBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="radmonPlayBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radmonPlayBtn.Text" xml:space="preserve">
+    <value>随机播放</value>
+  </data>
+  <data name="&gt;&gt;radmonPlayBtn.Name" xml:space="preserve">
+    <value>radmonPlayBtn</value>
+  </data>
+  <data name="&gt;&gt;radmonPlayBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radmonPlayBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radmonPlayBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="listPlayCbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="listPlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="listPlayCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 75</value>
+  </data>
+  <data name="listPlayCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="listPlayCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="listPlayCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="listPlayCbx.Text" xml:space="preserve">
+    <value>列表循环</value>
+  </data>
+  <data name="&gt;&gt;listPlayCbx.Name" xml:space="preserve">
+    <value>listPlayCbx</value>
+  </data>
+  <data name="&gt;&gt;listPlayCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listPlayCbx.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;listPlayCbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="onyOnePlayCbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="onyOnePlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="onyOnePlayCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 36</value>
+  </data>
+  <data name="onyOnePlayCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="onyOnePlayCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="onyOnePlayCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="onyOnePlayCbx.Text" xml:space="preserve">
+    <value>单个循环</value>
+  </data>
+  <data name="&gt;&gt;onyOnePlayCbx.Name" xml:space="preserve">
+    <value>onyOnePlayCbx</value>
+  </data>
+  <data name="&gt;&gt;onyOnePlayCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;onyOnePlayCbx.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;onyOnePlayCbx.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="muteBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="muteBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="muteBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="muteBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 134</value>
+  </data>
+  <data name="muteBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="muteBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 37</value>
+  </data>
+  <data name="muteBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="muteBtn.Text" xml:space="preserve">
+    <value>静音</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Name" xml:space="preserve">
+    <value>muteBtn</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="volDownBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="volDownBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="volDownBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="volDownBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 89</value>
+  </data>
+  <data name="volDownBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="volDownBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 37</value>
+  </data>
+  <data name="volDownBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="volDownBtn.Text" xml:space="preserve">
+    <value>音量-</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Name" xml:space="preserve">
+    <value>volDownBtn</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="volUpBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="volUpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="volUpBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="volUpBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 41</value>
+  </data>
+  <data name="volUpBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="volUpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 37</value>
+  </data>
+  <data name="volUpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="volUpBtn.Text" xml:space="preserve">
+    <value>音量+</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Name" xml:space="preserve">
+    <value>volUpBtn</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 147</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 222</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>播放模式设置</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnUdpConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnUdpConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUdpConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>572, 104</value>
+  </data>
+  <data name="btnUdpConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnUdpConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnUdpConnect.Text" xml:space="preserve">
+    <value>连 接</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.Name" xml:space="preserve">
+    <value>btnUdpConnect</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 68</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>内容：</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 67</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 14</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>接收到的数据:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labSendMsgPort.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSendMsgPort.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labSendMsgPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>591, 29</value>
+  </data>
+  <data name="labSendMsgPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labSendMsgPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="labSendMsgPort.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labSendMsgPort.Text" xml:space="preserve">
+    <value>UDP端口：</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Name" xml:space="preserve">
+    <value>labSendMsgPort</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labSendMsgIp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labSendMsgIp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labSendMsgIp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 29</value>
+  </data>
+  <data name="labSendMsgIp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labSendMsgIp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="labSendMsgIp.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="labSendMsgIp.Text" xml:space="preserve">
+    <value>IP地址：</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Name" xml:space="preserve">
+    <value>labSendMsgIp</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textSendMsgPort.Location" type="System.Drawing.Point, System.Drawing">
+    <value>672, 25</value>
+  </data>
+  <data name="textSendMsgPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="textSendMsgPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 23</value>
+  </data>
+  <data name="textSendMsgPort.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="textSendMsgPort.Text" xml:space="preserve">
+    <value>12345</value>
+  </data>
+  <data name="textSendMsgPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Name" xml:space="preserve">
+    <value>textSendMsgPort</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnUdpSendMsg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnUdpSendMsg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnUdpSendMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 104</value>
+  </data>
+  <data name="btnUdpSendMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 33</value>
+  </data>
+  <data name="btnUdpSendMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="btnUdpSendMsg.Text" xml:space="preserve">
+    <value>发 送</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Name" xml:space="preserve">
+    <value>btnUdpSendMsg</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textSendMsgIp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 23</value>
+  </data>
+  <data name="textSendMsgIp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 7, 7, 7</value>
+  </data>
+  <data name="textSendMsgIp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 23</value>
+  </data>
+  <data name="textSendMsgIp.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="textSendMsgIp.Text" xml:space="preserve">
+    <value>192.168.1.1</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Name" xml:space="preserve">
+    <value>textSendMsgIp</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="udpSendMsgRtbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 60</value>
+  </data>
+  <data name="udpSendMsgRtbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 30</value>
+  </data>
+  <data name="udpSendMsgRtbx.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="udpSendMsgRtbx.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Name" xml:space="preserve">
+    <value>udpSendMsgRtbx</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="udpRecevieMsgRtbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 59</value>
+  </data>
+  <data name="udpRecevieMsgRtbx.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="udpRecevieMsgRtbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>266, 78</value>
+  </data>
+  <data name="udpRecevieMsgRtbx.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="udpRecevieMsgRtbx.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Name" xml:space="preserve">
+    <value>udpRecevieMsgRtbx</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chfsCbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chfsCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chfsCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 24</value>
+  </data>
+  <data name="chfsCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="chfsCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="chfsCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="chfsCbx.Text" xml:space="preserve">
+    <value>文件服务</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Name" xml:space="preserve">
+    <value>chfsCbx</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="openUdpServerCbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="openUdpServerCbx.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="openUdpServerCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="openUdpServerCbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 24</value>
+  </data>
+  <data name="openUdpServerCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="openUdpServerCbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 18</value>
+  </data>
+  <data name="openUdpServerCbx.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="openUdpServerCbx.Text" xml:space="preserve">
+    <value>UDP服务</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Name" xml:space="preserve">
+    <value>openUdpServerCbx</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="checkBox5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>316, 24</value>
+  </data>
+  <data name="checkBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="checkBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 18</value>
+  </data>
+  <data name="checkBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="checkBox5.Text" xml:space="preserve">
+    <value>TCP服务</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Name" xml:space="preserve">
+    <value>checkBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="autoRunCkbx.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="autoRunCkbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="autoRunCkbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 24</value>
+  </data>
+  <data name="autoRunCkbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="autoRunCkbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="autoRunCkbx.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="autoRunCkbx.Text" xml:space="preserve">
+    <value>开机启动</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Name" xml:space="preserve">
+    <value>autoRunCkbx</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="softStatusGbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="softStatusGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 377</value>
+  </data>
+  <data name="softStatusGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="softStatusGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="softStatusGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 144</value>
+  </data>
+  <data name="softStatusGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="softStatusGbx.Text" xml:space="preserve">
+    <value>后台服务：</value>
+  </data>
+  <data name="&gt;&gt;softStatusGbx.Name" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;softStatusGbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;softStatusGbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;softStatusGbx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="isOnLinLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="isOnLinLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="isOnLinLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="isOnLinLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 7</value>
+  </data>
+  <data name="isOnLinLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="isOnLinLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 12</value>
+  </data>
+  <data name="isOnLinLab.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="isOnLinLab.Text" xml:space="preserve">
+    <value>网络未链接</value>
+  </data>
+  <data name="&gt;&gt;isOnLinLab.Name" xml:space="preserve">
+    <value>isOnLinLab</value>
+  </data>
+  <data name="&gt;&gt;isOnLinLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;isOnLinLab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;isOnLinLab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>273, 17</value>
+  </metadata>
+  <metadata name="myIcon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>369, 17</value>
+  </metadata>
+  <data name="myIcon.BalloonTipText" xml:space="preserve">
+    <value>1111</value>
+  </data>
+  <data name="myIcon.BalloonTipTitle" xml:space="preserve">
+    <value>22222</value>
+  </data>
+  <data name="myIcon.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRvvLyMc7cokHO3/JBzu/iQc
+        7c8kHe5rIhHuDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIxzxJCQc7e8kHO3/SEHw/0hB
+        8P8kHO3/JBzt/yQc7fMjHO6TIBjvIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQc7bgkHO3/i4b1//js
+        0f/w1ZT/1NDy/3149P8uJu7/JBzt/yQc7fojHO6THh7wEQAAAAAAAAAAAAAAACQY7SskHO3+RD3v//v7
+        ///NnqP/4Kkr/+a4S//68Nj/8O/+/5WR9v8zK+7/JBzt/yQc7eUkHOtAAAAAAAAAAAAjG+19JBzt/5qW
+        9v//////omPy/5RCvP/ltED/464w//Pdqv//////7+79/3l08/8kHO3/JBzu+SQd704AAAAAJBztuCQc
+        7f/X1fv//////6Jj8v98I+3//Pjt/+rDZv/iqyn/7Mhz//368///////rKn4/yYe7f8kHO3zJR7oIiQc
+        7eIoIO3/+vr+//////+iY/L/fCPt/////////v7/8dib/+KsLf/mt0j/+e7V//////+Rjvb/JBzt/yMc
+        7ZskHO33OjPv////////////omPy/3wj7f/////////////////47M7/5bVC/+OtL//y26T/9PT9/yki
+        7f8kHO3kIxvt/UE67////////////6Jj8v98I+3/////////////////7Pfq/4THbP+zri7/4qwr//nv
+        1v86Mu//JBzu+CMc7PY4Me////////////+iY/L/fCPt////////////weW7/1e6R/9KtTn/i8+A//j3
+        6//s7P3/Jx/t/yQc7twkHO3dJx/t//b2/v//////omPy/3wj7f/y+vH/iM59/0q1Of9Yu0j/w+a9////
+        ////////gHv0/yQc7f8kG+2MJBztqyQc7f/Gw/r//////6Jj8v95Iur/XbxO/0q1Of+AynT/7fjs////
+        ////////nJj3/yQc7f8kHO7qIxfoFiMb7F8kHO3/bGbz//////+iY/L/dyHo/1O5Q/+34bH//v/+////
+        ///n5/3/bWfy/yQc7f8kHOz0IRnuPQAAAAAgIP8IJBvt4SQc7f+alvb/wpr3/51j7P/n9eT/+/v//8rI
+        +v96dfT/KyPt/yQc7f8kHO3dIhnrNAAAAAAAAAAAAAAAACEZ6j0jHO31JBzt/zw17/9bVfH/Ukzx/y8n
+        7v8kHO3/JBzt/yQc7fAjG+2CFxfoCwAAAAAAAAAAAAAAAAAAAAAAAAAAIRvvLyQc7bkkG+37JBzt/yQc
+        7f8jHO7vIxzttCQc7WQnFP8NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ASQc7lsjHO3RJBzt/iQc
+        7f8kHO3/JBzu/SQc7dAlHO1vKBvyEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcX/wskG+6xJBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO32JBzspCIa7jwAAP8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqKv8GJBvsviQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7tAjG+xgICD/CAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMb
+        7YwkHO3/JBzt/yQc7f8kHO3/TUfw/4qG9f+Ig/X/UErw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3mIxrrdScU6w0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkGu8xIxvt/CQc7f8kHO3/JBzt/5CM9v/9/f////7+//v15v/+/fn/2Nf8/3569P8yKu7/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzs6iIc7W8kJNsHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACQb7rMkHO3/JBzt/yQc7f94c/T///////368f/ovVj/4qsp/+a4Sv/679j///////X0
+        /v+opfj/TEXw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yMc7dkiGuxEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiG/ImJBzt/SQc7f8kHO3/NS7u//Hx/v//////69TE/+KrKf/iqyn/4qsp/+Ou
+        Mf/z3aj////+///////+/v//xcL6/2Ba8v8lHe3/JBzt/yQc7f8kHO3/JBzt/yQc7f4lHO2ZFxfoCwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACMb7oUkHO3/JBzt/yQc7f+UkPb////////////Mqfj/nU+p/9yj
+        M//iqyn/4qsp/+KrKf/syHL//frz/////////////////9DO+/9fWfL/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3SJR7wIgAAAAAAAAAAAAAAAAAAAAAAAAAAIxvt2CQc7f8kHO3/KCDt/+no/f///////////8yp
+        +P95Hu3/iDLQ/82QTv/iqyn/4qsp/+KrKf/mt0f/+e7V///////////////////////Avfn/RD3v/yQc
+        7f8kHO3/JBzt/yQc7f8kG+3pIhzuLQAAAAAAAAAAAAAAACEZ7x8kHO3+JBzt/yQc7f9ZU/H/////////
+        ////////zKn4/3ke7f95Hu3/gSrn/+7Og//iqyr/4qsp/+KrKf/jrS//89uk/////v//////////////
+        ///39/7/hID0/yUd7f8kHO3/JBzt/yQc7f8kHOzqJR7wIgAAAAAAAAAAJRzuWiQc7f8kHO3/JBzt/5OP
+        9v/////////////////Mqfj/eR7t/3ke7f9/KO3///////Xjuf/ksDb/4qsp/+KrKf/iqyn/68Zu//35
+        8f//////////////////////uLb5/y0m7v8kHO3/JBzt/yQc7f8kHO3PICDfCAAAAAAkHO6IJBzt/yQc
+        7f8kHO3/ysj6/////////////////8yp+P95Hu3/eR7t/38o7f////////////v04//ovVb/4qsp/+Kr
+        Kf/iqyn/5bZE//nt0f//////////////////////y8n6/y4m7v8kHO3/JBzt/yQc7f8kHO1/AAAAACQc
+        7bckHO3/JBzt/yUd7f/t7f3/////////////////zKn4/3ke7f95Hu3/fyjt//////////////////79
+        +v/v0If/4qsq/+KrKf/iqyn/4qwt//LZoP///v7/////////////////t7X5/yUd7f8kHO3/JBzt/yQb
+        7fIcHOMSJBzt0yQc7f8kHO3/NS3u///////////////////////Mqfj/eR7t/3ke7f9/KO3/////////
+        ///////////////////25b3/5LE5/+KrKf/iqyn/4qsp/+rEaf/9+O7/////////////////a2bz/yQc
+        7f8kHO3/JBzt/yIb7GkkG+3oJBzt/yQc7f9JQvD//////////////////////8yp+P95Hu3/eR7t/38o
+        7f/////////////////////////////////79eX/6L5a/+KrKf/iqyn/4qsp/+W1Qv/4683/////////
+        ///V1Pv/JBzt/yQc7f8kHO3/IxzutCQc7PckHO3/JBzt/1dR8f//////////////////////zKn4/3ke
+        7f95Hu3/fyjt///////////////////////////////////////+/vz/79KM/+KrKv/iqyn/4qsp/+Ks
+        LP/x15r///79///+//86M+//JBzt/yQc7f8jG+3fJBvt+yQc7f8kHO3/X1ny////////////////////
+        ///Mqfj/eR7t/3ke7f9/KO3////////////////////////////////////////////l9OP/kLxR/9Ws
+        Kv/iqyn/4qsp/+KrKf/w1ZT//////1JL8f8kHO3/JBzt/yQc7fMkG+37JBzt/yQc7f9eWPL/////////
+        /////////////8yp+P95Hu3/eR7t/38o7f/////////////////////////////////+//7/teCu/1K4
+        Qv9KtTn/WrQ3/7ytLf/iqyn/468z//fqyP//////Tkfw/yQc7f8kHO3/JBzt8CMc7fUkHO3/JBzt/1RO
+        8f//////////////////////zKn4/3ke7f95Hu3/fyjt////////////////////////////7Pfq/37K
+        cf9KtTn/SrU5/0q1Of9KtTn/Yb5R/+Tku//9+vL///////r6/v8vKO7/JBzt/yQc7f8kHO3VJBzt5CQc
+        7f8kHO3/RT7w///////////////////////Mqfj/eR7t/3ke7f9/KO3//////////////////////8Hm
+        u/9Xukj/SrU5/0q1Of9KtTn/SrU5/47RhP/0+vP/////////////////urf5/yQc7f8kHO3/JBzt/yQb
+        754kG+zOJBzt/yQc7f8vJ+7//f3//////////////////8yp+P95Hu3/eR7t/38o7f////////////L5
+        8P+Jz37/SrU5/0q1Of9KtTn/SrU5/1m7Sv/G58D///////////////////////z8//9PSPD/JBzt/yQc
+        7f8kHO3/JBrsTyMb7agkHO3/JBzt/yQc7f/f3vz/////////////////zKn4/3ke7f95Hu3/fyjt////
+        ///M6sf/Xb1O/0q1Of9KtTn/SrU5/0q1Of+CzHb/7/jt////////////////////////////ko72/yQc
+        7f8kHO3/JBzt/yQc7d4zAMwFJBzueCQc7f8kHO3/JBzt/66r+P/////////////////Mqfj/eR7t/3ke
+        7f99KOv/ldOL/0u1Ov9KtTn/SrU5/0q1Of9VuUX/uuO0//7//v///////////////////////////62q
+        +P8mHu3/JBzt/yQc7f8kHO3/IxrqVwAAAAAkG+04JBzt/yQc7f8kHO3/a2Xz/////////////////8yp
+        +P95Hu3/eR7t/3Yl5P9KtTn/SrU5/0q1Of9KtTn/eMdr/+j15v//////////////////////////////
+        //+dmff/Jh7t/yQc7f8kHO3/JBzt/yQc7awAAP8BAAAAAEAA/wQkG+zpJBzt/yQc7f8qIu3/6ej9////
+        ////////zKn4/3ke7f95Hu3/diXk/0q1Of9KtTn/ULdA/67ep//9/v3/////////////////////////
+        ///u7f3/bGby/yQc7f8kHO3/JBzt/yQc7f8kHO3QJBLtDgAAAAAAAAAAAAAAACMa7JEkHO3/JBzt/yQc
+        7f94dPT////////////Mqfj/eR7t/3ke7f92JeT/SrU5/27EYf/g8t3/////////////////////////
+        ///7+///paL3/zUu7v8kHO3/JBzt/yQc7f8kHO3/Ixzt0iEW9BcAAAAAAAAAAAAAAAAAAAAAHx/wISQc
+        7fkkHO3/JBzt/yUd7f+wrfj//////9m/+v95Hu3/eR7t/3U11v+j2Zr/+/36////////////////////
+        ///y8v7/o6D3/0E67/8kHO3/JBzt/yQc7f8kHO3/JBzt/yMb7bscHOMSAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJBvtjCQc7f8kHO3/JBzt/ycf7f+Tj/b/9vX+/8GX9v+kZ/L/49H6//////////////////Hw
+        /v+5tvn/cWzz/y4n7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7fkiHO1+AAC/BAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAcHP8JJBvtzyQc7f8kHO3/JBzt/yQc7f81Lu7/c27z/5CM9v+Wkvb/jYj1/3Vw
+        9P9LRPD/KCDt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO6/IRzpLgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmHOwbJBvt1yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jG+3FIxzuSQAA/wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcHPESJBztqyQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yMc7e4kHO2cIRzxNgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJR3vPiQd
+        7aokHO3wJBzt/yQc7f8kHO3/JBzt/yQc7f8jHO31IxztyyQb7YwkHe1GICDfCAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD/ASAg9BgkHe1iIxztyiQc7f4kHO3/JBzt/yQc7f8kHO3/JBvu+yQc7cUlG+5nJR7wIhoa
+        /woAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkJP8HJBvtViMc7cIkG+37JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO39JBzt3SQc7ZsjGu5YJhryFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACoq/wYjHO51JBzt7SQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f4kHO3xJBvt1iQc74AjGu0dAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AyUb62gkHO32JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8lHO3tIxvslyQe
+        8yskJO0OAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIh3rWSQb7fIkHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7e4kG+2oJBzsXBwc8RIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGuoxJBzu2yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/05H8P+tqvj/0tD7/8/N+/+npPf/WVPx/yUd7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBzt8iMc7csjG+xeJCT/BwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwc
+        /wkkG+yWJBzt/SQc7f8kHO3/JBzt/yQc7f8uJu7/iYT1//v7/v/////////+//78+P/+/Pj////+/9TT
+        /P94c/T/Pzjv/ysk7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBztxiYb
+        8EMiIu4PAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACEc7DYjHO3nJBzt/yQc7f8kHO3/JBzt/ywk7v+Pi/X/9vb+///////9+fD/9N6s/+3M
+        fv/uzoL/9+nH///////8/P//3tz8/6Sh9/9pZPL/Lyju/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7fQjG+2pIxztSAAA/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACQc7KUkHO3/JBzt/yQc7f8kHO3/JBzt/11X8v/w7/7///////78
+        9//v0oz/468y/+KrKf/iqyr/5LI7//LXm//+/fn///////7+///x8f7/1NP8/4B79P8yK+7/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBzu6yMc7pkfFOsZAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRryJyQb7fskHO3/JBzt/yQc7f8kHO3/Lyfu/9nY
+        /P////////////v06f/jtFL/4qsp/+KrKf/iqyn/4qsp/+OtLf/tzHz/+/Xm////////////////////
+        ///i4f3/hX/0/z437/8qIu3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO7PJh7uPCoq
+        /wYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBvvjyQc7f8kHO3/JBzt/yQc
+        7f8kHO3/iIT1//////////////////Hn9v+2dZv/2Z85/+KrKf/iqyn/4qsp/+KrKf/irCv/6b9c//fm
+        v//+/fv//////////////////////9/e/P+Zlfb/Ukvx/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JRzu7CQc7YAjF+gWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjF/MWJB3t1iQc
+        7f8kHO3/JBzt/yQc7f87NO//29n8/////////////////+7i/f+MPer/kT+//9KWRv/iqyn/4qsp/+Kr
+        Kf/iqyn/4qsp/+WyPP/y2Jz//vz4///////////////////////8+///6en9/6ai9/89N+//JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7vgkHe2pJhryFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkGutOJBzt7iQc7f8kHO3/JBzt/yQc7f9xbPP/9PP+/////////////////+7i/f+JOe//eR7t/4Ir
+        2/+/fWn/36cv/+KrKf/iqyn/4qsp/+KrKf/irCv/7Mp7//z26f///v3/////////////////////////
+        ///l5P3/d3L0/zUt7v8lHe3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JRvuwyQb7RwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA/wMlHex8JBzt+yQc7f8kHO3/JBzt/ysk7v+lovf//v7//////////////////+7i
+        /f+JOe//eR7t/3ke7f+BKd3/rGOT/+WzPv/iqyn/4qsp/+KrKf/iqyn/4qsp/+i9Vv/25b7//v37////
+        /////////////////////////Pz//8G++v9jXfL/KSHt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7r8iHO4tAAAAAAAAAAAAAAAAAAAAACQk7Q4kG+2oJBzt/yQc7f8kHO3/JBzt/zoz7//S0fv/////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/hDDq//jrzv/nvFT/4qsp/+KrKf/iqyn/4qsp/+Kr
+        Kv/lsjv/8dea//7+/P////////////////////////////7+///s7P3/k4/2/ygg7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f0kG+yxKBvyEwAAAAAAAAAAAAAAACYc7BskHOzOJBzt/yQc7f8kHO3/JBzt/0pD
+        8P/29v7//////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u///////79eb/68Vs/+Ou
+        Mf/iqyn/4qsp/+KrKf/iqyn/4qsp/+vGbf/79OH///79/////////////////////////////////7y5
+        +f9AOe//JR3t/yQc7f8kHO3/JBzt/yQc7f8kHO3+Ih3shkAA/wQAAAAAAAAAACQe7SokG+3yJBzt/yQc
+        7f8kHO3/JBzt/3159P/+/v///////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        /////////vv1//LaoP/ltUP/4qsp/+KrKf/iqyn/4qsp/+KsK//ovVb/9uW7/////f//////////////
+        //////////////39///GxPr/S0Xw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzs+CMa7VcAAAAAAAAAACUe
+        8EUkHO3+JBzt/yQc7f8kHO3/JBzt/7Ct+P///////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////////////////+/P/468z/57lO/+KrKf/iqyn/4qsp/+KrKf/iqyn/5LE4//DT
+        jv/++/b////////////////////////////+/v//29n8/z847/8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7dMoGO8gAAAAACUb73wkHO3/JBzt/yQc7f8kHO3/JR3t/9fV+////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u/////////////////////////////frz/+zHcf/jrzP/4qsp/+Kr
+        Kf/iqyn/4qsp/+KsK//sx3D/+/Ph/////v///////////////////////////8/O+v86Mu//JBzt/yQc
+        7f8kHO3/JBzt/yQc7PgiG+1wAAD/AiQc7KMkHO3/JBzt/yQc7f8kHO3/Lyju//n4////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////////////////////37
+        9f/y26P/5bVB/+KrKf/iqyn/4qsp/+KrKf/iqyr/57xU//Xjt//+/Pj///////////////////////r6
+        //+YlPb/KyPu/yQc7f8kHO3/JBzt/yQc7f8kG+26JhrmFCMb7bwkHO3/JBzt/yQc7f8kHO3/RkDv////
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////
+        ///////////////////+/fv/+e/V/+i8Vf/iqyn/4qsp/+KrKf/iqyn/4qsp/+SxOP/w05D//vv2////
+        ///////////////////q6v3/Rj/v/yQc7f8kHO3/JBzt/yQc7f8kHOzzIRzpLiQc7tMkHO3/JBzt/yQc
+        7f8kHO3/XVfx/////////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        //////////////////////////////////////////////358P/ty3r/464y/+KrKf/iqyn/4qsp/+Kr
+        Kf/iqyr/68Vs//v04////v3/////////////////paL4/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBvtcCQc
+        7OkkHO3/JBzt/yQc7f8kHO3/bmnz/////////////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////////////////////////////////////////////////////9+vP/89yn/+W1
+        RP/iqyn/4qsp/+KrKf/iqyn/4qsp/+e5Tv/14rX//v35////////////6+r9/y8n7v8kHO3/JBzt/yQc
+        7f8kHO3/IxztriQb7PQkHO3/JBzt/yQc7f8kHO3/fHf0/////////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////////////////////////////////////
+        //////////79//nv1f/pwF3/4qsq/+KrKf/iqyn/4qsp/+KrKf/ksTf/79GK//79+v///////////1NN
+        8f8kHO3/JBzt/yQc7f8kHO3/JBzs0yMc7fckHO3/JBzt/yQc7f8kHO3/hH/1////////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////////////////////
+        //////////////////////////////z++//U58D/ubQ+/9urKv/iqyn/4qsp/+KrKf/iqyn/4qsp/+vF
+        bP/+/fn//////25o8/8kHO3/JBzt/yQc7f8kHO3/JBzu6iQc7fokHO3/JBzt/yQc7f8kHO3/iIT1////
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////
+        ////////////////////////////////////////8Pnv/6jcn/9gvlH/T7U5/4axMv/KrCv/4asp/+Kr
+        Kf/iqyn/4qsp/+i9Vv/9+vP//////3Nu9P8kHO3/JBzt/yQc7f8kHO3/JBzt7iMb7PckHO3/JBzt/yQc
+        7f8kHO3/g371/////////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        ///////////////////////////////////////////////////a8Nf/dcZn/0+3Pv9KtTn/SrU5/0y1
+        Of9oszb/wa0s/+KrKf/iqyn/5rdG//ntz////////////2Rf8v8kHO3/JBzt/yQc7f8kHO3/Ixzt4SQc
+        7fEkHO3/JBzt/yQc7f8kHO3/d3P0/////////////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u////////////////////////////////////////////9fv0/73ktv9cvEz/SrU5/0q1
+        Of9KtTn/SrU5/0q1Of9KtTn/WrlG/7/Nff/25sH//fz2/////////////Pz//0A67/8kHO3/JBzt/yQc
+        7f8kHO3/Ix3twyQc7eMkHO3/JBzt/yQc7f8kHO3/aWTy/////////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////////////////////3+/f/a8Nb/is9//063
+        Pf9KtTn/SrU5/0q1Of9KtTn/SrU5/0y2O/9zxmb/xee///3+/P//////////////////////0dD7/yYe
+        7f8kHO3/JBzt/yQc7f8kHO3/IxvslyQb7cwkHO3/JBzt/yQc7f8kHO3/VlDx////////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u/////////////////////////////////7zk
+        tv9iv1P/TLY7/0q1Of9KtTn/SrU5/0q1Of9KtTn/SrU5/5fUjf/r9+n//v7+////////////////////
+        ///9/f//c270/yQc7f8kHO3/JBzt/yQc7f8kHO79IxzxSSMb7bQkHO3/JBzt/yQc7f8kHO3/PTbv//7+
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////3+
+        /f/n9eX/jtGE/0u1Ov9KtTn/SrU5/0q1Of9KtTn/SrU5/0y2O/9mwFf/w+a+//7//v//////////////
+        ///////////////////Pzfv/OTLv/yQc7f8kHO3/JBzt/yQc7f8jG+7fHx/wISQb7pUkHO3/JBzt/yQc
+        7f8kHO3/KCDt/+vq/f///////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        ////////+/36/8Dluv9wxGL/TLY7/0q1Of9KtTn/SrU5/0q1Of9KtTn/ULc//4/Rhf/d8dr//v7+////
+        //////////////////////////////Py/v91b/P/Jh7t/yQc7f8kHO3/JBzt/yQc7f4kHO2bMxr/CiMe
+        7F8kHO3/JBzt/yQc7f8kHO3/JBzt/769+v///////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////u+O3/jdCD/1W5Rf9KtTn/SrU5/0q1Of9KtTn/SrU5/0q1Of9fvlD/wua8//b7
+        9f///////////////////////////////////////////6Ke9/8rJO7/JBzt/yQc7f8kHO3/JBzt/yQc
+        7u4jHexQAAD/ASQa7zEkHO75JBzt/yQc7f8kHO3/JBzt/4+K9v///////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gi/t/9Tt0P9wxGL/S7U6/0q1Of9KtTn/SrU5/0q1Of9KtTn/ULdA/3rJ
+        bf/f8tz////////////////////////////////////////////6+v//t7X5/yki7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQd7LIqAP8GAAAAACEZ7x8kHO3aJBzt/yQc7f8kHO3/JBzt/05I8P/19P7/////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/eSvj/1m7Sv9KtTn/SrU5/0q1Of9KtTn/SrU5/0q1
+        Ov9iv1T/rd2l//P68v////////////////////////////////////////////n5/v+rp/j/Ni/v/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt4R4Y7SoAAAAAAAAAACAg3xAjHOyuJBzt/yQc7f8kHO3/JBzt/zcw
+        7//Lyfv//////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1Of9KtTn/SrU5/0q1
+        Of9KtTn/SrU5/3XGaP/a8Nf//P78/////////////////////////////////////////////v7//5eT
+        9v8yKu7/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO30IxrsUAAAAAAAAAAAAAAAAAAAqgMlHe98JRzu+yQc
+        7f8kHO3/JBzt/ygg7f+Tj/b//Pz//////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1
+        Of9KtTn/SrU5/0u1Ov9Zu0n/oNiY//r9+f////////////////////////////////////////////39
+        ///h3/z/b2nz/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7vgjG+6EICDfCAAAAAAAAAAAAAAAAAAA
+        AAAjG+xCJBzu6iQc7f8kHO3/JBzt/yQc7f9NRvD/5OP9/////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/dSrf/0q1Of9KtTn/S7U6/3fHa//J6cT/+/37////////////////////////////////////
+        ////////8/P+/6il+P9PSPD/Jh7t/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/SQb7pYkGOcVAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAcHOMJJBvsxyQc7f8kHO3/JBzt/yQc7f8mHu3/iYT1/////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1Of9RuEH/o9qb/+/47v/+//7/////////////////////////
+        //////////////39///Ixvr/VlDx/y4m7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO39IxztiicU
+        6w0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhztUyQc7fwkHO3/JBzt/yQc7f8kHO3/Jx/t/7az
+        +P/7+/////////Dm/f+PQ/D/eR7t/3ke7f95Hu3/dDbT/2jBWv/G58D//f78////////////////////
+        //////////////39///w7/7/zs37/21n8/8qIu3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7fEkHeyFGhrmCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCTbByQc7bgkHO3/JBzt/yQc
+        7f8kHO3/JBzt/zgx7/+uq/j/+fj+//r3/v+5ifX/fSXt/3ke7f+BLO7/q5jX/+T04f//////////////
+        ///////////////////4+P7/0tH7/56a9/9kX/L/LSXu/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3+Ixzt2CQc7WMXF+gLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMe
+        6zMkHe3nJBzt/yQc7f8kHO3/JBzt/yQc7f8yKu7/fnn0/+no/f/38v7/17v5/7qM9f/cxfr/+vj+////
+        ///////////////////9/f//29r8/6Cc9/9YUvH/OjPv/yoi7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7fwkHO6wJB7tKgAA/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMz/wUjG+x7JBzt9yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/zEp7v91cPT/uLX5/9LR
+        +//Y1/v/2dj7/9TR+//Ewvr/oJ33/3Bq8/9CPO//Jh7t/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO76Ix3u3yQb7XEaGuYKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGOcVJBztnCQc7f4kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yUd7f8qIu3/KyPt/yUd7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7t4kG+yGJBjtKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiLuDyQb7JUkHO39JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3nIhztgCcX8CEkJNsHAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoa
+        5gojG+2CJBzu6iQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f0kHO7tIxzu0iIc7ncfFOsZAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAqANQGIhzuSiQd7akkHO3tJBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f4kHO3pJBztuCIb7IYiG+5LIhHuDwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQk7Q4iHfA0JB3tjiMc7dkkHO39JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7fckHO3PJBztnCUc7FIhGusnKBvyE0AA/wQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="myIcon.Text" xml:space="preserve">
+    <value>多媒体播放控制系统</value>
+  </data>
+  <data name="myIcon.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="copyRightLab.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="copyRightLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="copyRightLab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="copyRightLab.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="copyRightLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 659</value>
+  </data>
+  <data name="copyRightLab.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="copyRightLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 12</value>
+  </data>
+  <data name="copyRightLab.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="copyRightLab.Text" xml:space="preserve">
+    <value>CopyRight By TRTOUCH  官网:HTTP://WWW.TRTOUCH.CN</value>
+  </data>
+  <data name="&gt;&gt;copyRightLab.Name" xml:space="preserve">
+    <value>copyRightLab</value>
+  </data>
+  <data name="&gt;&gt;copyRightLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyRightLab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;copyRightLab.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnWin10Startup.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnWin10Startup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="btnWin10Startup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWin10Startup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 72</value>
+  </data>
+  <data name="btnWin10Startup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnWin10Startup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="btnWin10Startup.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btnWin10Startup.Text" xml:space="preserve">
+    <value>win10启动文件夹</value>
+  </data>
+  <data name="btnWin10Startup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnWin10Startup.Name" xml:space="preserve">
+    <value>btnWin10Startup</value>
+  </data>
+  <data name="&gt;&gt;btnWin10Startup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWin10Startup.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;btnWin10Startup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnWin7Startup.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnWin7Startup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="btnWin7Startup.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnWin7Startup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 73</value>
+  </data>
+  <data name="btnWin7Startup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnWin7Startup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="btnWin7Startup.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="btnWin7Startup.Text" xml:space="preserve">
+    <value>win7启动文件夹</value>
+  </data>
+  <data name="btnWin7Startup.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnWin7Startup.Name" xml:space="preserve">
+    <value>btnWin7Startup</value>
+  </data>
+  <data name="&gt;&gt;btnWin7Startup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnWin7Startup.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;btnWin7Startup.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSoundSet.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSoundSet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="btnSoundSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSoundSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 21</value>
+  </data>
+  <data name="btnSoundSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnSoundSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="btnSoundSet.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="btnSoundSet.Text" xml:space="preserve">
+    <value>声音设置</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSet.Name" xml:space="preserve">
+    <value>btnSoundSet</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSet.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;btnSoundSet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnOpenVlcPlayer.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="btnOpenVlcPlayer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 73</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="btnOpenVlcPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Text" xml:space="preserve">
+    <value>VLC播放器</value>
+  </data>
+  <data name="btnOpenVlcPlayer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnOpenVlcPlayer.Name" xml:space="preserve">
+    <value>btnOpenVlcPlayer</value>
+  </data>
+  <data name="&gt;&gt;btnOpenVlcPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnOpenVlcPlayer.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;btnOpenVlcPlayer.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="firewallSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="firewallSetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="firewallSetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="firewallSetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 21</value>
+  </data>
+  <data name="firewallSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="firewallSetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="firewallSetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="firewallSetBtn.Text" xml:space="preserve">
+    <value>安全中心</value>
+  </data>
+  <data name="&gt;&gt;firewallSetBtn.Name" xml:space="preserve">
+    <value>firewallSetBtn</value>
+  </data>
+  <data name="&gt;&gt;firewallSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;firewallSetBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;firewallSetBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="deskSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="deskSetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="deskSetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deskSetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>319, 21</value>
+  </data>
+  <data name="deskSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="deskSetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="deskSetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="deskSetBtn.Text" xml:space="preserve">
+    <value>分辨率设置</value>
+  </data>
+  <data name="&gt;&gt;deskSetBtn.Name" xml:space="preserve">
+    <value>deskSetBtn</value>
+  </data>
+  <data name="&gt;&gt;deskSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deskSetBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;deskSetBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="systemPowerSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="systemPowerSetBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="systemPowerSetBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="systemPowerSetBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 21</value>
+  </data>
+  <data name="systemPowerSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="systemPowerSetBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="systemPowerSetBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="systemPowerSetBtn.Text" xml:space="preserve">
+    <value>电源管理</value>
+  </data>
+  <data name="&gt;&gt;systemPowerSetBtn.Name" xml:space="preserve">
+    <value>systemPowerSetBtn</value>
+  </data>
+  <data name="&gt;&gt;systemPowerSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;systemPowerSetBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;systemPowerSetBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="fileServerBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="fileServerBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="fileServerBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="fileServerBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 21</value>
+  </data>
+  <data name="fileServerBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="fileServerBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="fileServerBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="fileServerBtn.Text" xml:space="preserve">
+    <value>打开文件服务器网页</value>
+  </data>
+  <data name="&gt;&gt;fileServerBtn.Name" xml:space="preserve">
+    <value>fileServerBtn</value>
+  </data>
+  <data name="&gt;&gt;fileServerBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileServerBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;fileServerBtn.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ftpBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ftpBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="ftpBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ftpBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>424, 72</value>
+  </data>
+  <data name="ftpBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="ftpBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="ftpBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="ftpBtn.Text" xml:space="preserve">
+    <value>FTP 服务</value>
+  </data>
+  <data name="ftpBtn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;ftpBtn.Name" xml:space="preserve">
+    <value>ftpBtn</value>
+  </data>
+  <data name="&gt;&gt;ftpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ftpBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;ftpBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="exitBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="exitBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="exitBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="exitBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>635, 72</value>
+  </data>
+  <data name="exitBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="exitBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="exitBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="exitBtn.Text" xml:space="preserve">
+    <value>后台运行</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
+    <value>exitBtn</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="defaultConfigBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="defaultConfigBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="defaultConfigBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="defaultConfigBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 72</value>
+  </data>
+  <data name="defaultConfigBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="defaultConfigBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="defaultConfigBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="defaultConfigBtn.Text" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="defaultConfigBtn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;defaultConfigBtn.Name" xml:space="preserve">
+    <value>defaultConfigBtn</value>
+  </data>
+  <data name="&gt;&gt;defaultConfigBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;defaultConfigBtn.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;defaultConfigBtn.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="sysSetGbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="sysSetGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 529</value>
+  </data>
+  <data name="sysSetGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="sysSetGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="sysSetGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 124</value>
+  </data>
+  <data name="sysSetGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="sysSetGbx.Text" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="&gt;&gt;sysSetGbx.Name" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;sysSetGbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sysSetGbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;sysSetGbx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>753, 678</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAEAIABoBAAANgAAACAgAAABACAAKBEAAJ4EAAAwMAAAAQAgAGgmAADGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRvvLyMc7cokHO3/JBzu/iQc
+        7c8kHe5rIhHuDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIxzxJCQc7e8kHO3/SEHw/0hB
+        8P8kHO3/JBzt/yQc7fMjHO6TIBjvIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQc7bgkHO3/i4b1//js
+        0f/w1ZT/1NDy/3149P8uJu7/JBzt/yQc7fojHO6THh7wEQAAAAAAAAAAAAAAACQY7SskHO3+RD3v//v7
+        ///NnqP/4Kkr/+a4S//68Nj/8O/+/5WR9v8zK+7/JBzt/yQc7eUkHOtAAAAAAAAAAAAjG+19JBzt/5qW
+        9v//////omPy/5RCvP/ltED/464w//Pdqv//////7+79/3l08/8kHO3/JBzu+SQd704AAAAAJBztuCQc
+        7f/X1fv//////6Jj8v98I+3//Pjt/+rDZv/iqyn/7Mhz//368///////rKn4/yYe7f8kHO3zJR7oIiQc
+        7eIoIO3/+vr+//////+iY/L/fCPt/////////v7/8dib/+KsLf/mt0j/+e7V//////+Rjvb/JBzt/yMc
+        7ZskHO33OjPv////////////omPy/3wj7f/////////////////47M7/5bVC/+OtL//y26T/9PT9/yki
+        7f8kHO3kIxvt/UE67////////////6Jj8v98I+3/////////////////7Pfq/4THbP+zri7/4qwr//nv
+        1v86Mu//JBzu+CMc7PY4Me////////////+iY/L/fCPt////////////weW7/1e6R/9KtTn/i8+A//j3
+        6//s7P3/Jx/t/yQc7twkHO3dJx/t//b2/v//////omPy/3wj7f/y+vH/iM59/0q1Of9Yu0j/w+a9////
+        ////////gHv0/yQc7f8kG+2MJBztqyQc7f/Gw/r//////6Jj8v95Iur/XbxO/0q1Of+AynT/7fjs////
+        ////////nJj3/yQc7f8kHO7qIxfoFiMb7F8kHO3/bGbz//////+iY/L/dyHo/1O5Q/+34bH//v/+////
+        ///n5/3/bWfy/yQc7f8kHOz0IRnuPQAAAAAgIP8IJBvt4SQc7f+alvb/wpr3/51j7P/n9eT/+/v//8rI
+        +v96dfT/KyPt/yQc7f8kHO3dIhnrNAAAAAAAAAAAAAAAACEZ6j0jHO31JBzt/zw17/9bVfH/Ukzx/y8n
+        7v8kHO3/JBzt/yQc7fAjG+2CFxfoCwAAAAAAAAAAAAAAAAAAAAAAAAAAIRvvLyQc7bkkG+37JBzt/yQc
+        7f8jHO7vIxzttCQc7WQnFP8NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAAAABAAAAAAQAgAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ASQc7lsjHO3RJBzt/iQc
+        7f8kHO3/JBzu/SQc7dAlHO1vKBvyEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcX/wskG+6xJBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO32JBzspCIa7jwAAP8BAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqKv8GJBvsviQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7tAjG+xgICD/CAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMb
+        7YwkHO3/JBzt/yQc7f8kHO3/TUfw/4qG9f+Ig/X/UErw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3mIxrrdScU6w0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkGu8xIxvt/CQc7f8kHO3/JBzt/5CM9v/9/f////7+//v15v/+/fn/2Nf8/3569P8yKu7/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzs6iIc7W8kJNsHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACQb7rMkHO3/JBzt/yQc7f94c/T///////368f/ovVj/4qsp/+a4Sv/679j///////X0
+        /v+opfj/TEXw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yMc7dkiGuxEAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAiG/ImJBzt/SQc7f8kHO3/NS7u//Hx/v//////69TE/+KrKf/iqyn/4qsp/+Ou
+        Mf/z3aj////+///////+/v//xcL6/2Ba8v8lHe3/JBzt/yQc7f8kHO3/JBzt/yQc7f4lHO2ZFxfoCwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACMb7oUkHO3/JBzt/yQc7f+UkPb////////////Mqfj/nU+p/9yj
+        M//iqyn/4qsp/+KrKf/syHL//frz/////////////////9DO+/9fWfL/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8jHO3SJR7wIgAAAAAAAAAAAAAAAAAAAAAAAAAAIxvt2CQc7f8kHO3/KCDt/+no/f///////////8yp
+        +P95Hu3/iDLQ/82QTv/iqyn/4qsp/+KrKf/mt0f/+e7V///////////////////////Avfn/RD3v/yQc
+        7f8kHO3/JBzt/yQc7f8kG+3pIhzuLQAAAAAAAAAAAAAAACEZ7x8kHO3+JBzt/yQc7f9ZU/H/////////
+        ////////zKn4/3ke7f95Hu3/gSrn/+7Og//iqyr/4qsp/+KrKf/jrS//89uk/////v//////////////
+        ///39/7/hID0/yUd7f8kHO3/JBzt/yQc7f8kHOzqJR7wIgAAAAAAAAAAJRzuWiQc7f8kHO3/JBzt/5OP
+        9v/////////////////Mqfj/eR7t/3ke7f9/KO3///////Xjuf/ksDb/4qsp/+KrKf/iqyn/68Zu//35
+        8f//////////////////////uLb5/y0m7v8kHO3/JBzt/yQc7f8kHO3PICDfCAAAAAAkHO6IJBzt/yQc
+        7f8kHO3/ysj6/////////////////8yp+P95Hu3/eR7t/38o7f////////////v04//ovVb/4qsp/+Kr
+        Kf/iqyn/5bZE//nt0f//////////////////////y8n6/y4m7v8kHO3/JBzt/yQc7f8kHO1/AAAAACQc
+        7bckHO3/JBzt/yUd7f/t7f3/////////////////zKn4/3ke7f95Hu3/fyjt//////////////////79
+        +v/v0If/4qsq/+KrKf/iqyn/4qwt//LZoP///v7/////////////////t7X5/yUd7f8kHO3/JBzt/yQb
+        7fIcHOMSJBzt0yQc7f8kHO3/NS3u///////////////////////Mqfj/eR7t/3ke7f9/KO3/////////
+        ///////////////////25b3/5LE5/+KrKf/iqyn/4qsp/+rEaf/9+O7/////////////////a2bz/yQc
+        7f8kHO3/JBzt/yIb7GkkG+3oJBzt/yQc7f9JQvD//////////////////////8yp+P95Hu3/eR7t/38o
+        7f/////////////////////////////////79eX/6L5a/+KrKf/iqyn/4qsp/+W1Qv/4683/////////
+        ///V1Pv/JBzt/yQc7f8kHO3/IxzutCQc7PckHO3/JBzt/1dR8f//////////////////////zKn4/3ke
+        7f95Hu3/fyjt///////////////////////////////////////+/vz/79KM/+KrKv/iqyn/4qsp/+Ks
+        LP/x15r///79///+//86M+//JBzt/yQc7f8jG+3fJBvt+yQc7f8kHO3/X1ny////////////////////
+        ///Mqfj/eR7t/3ke7f9/KO3////////////////////////////////////////////l9OP/kLxR/9Ws
+        Kv/iqyn/4qsp/+KrKf/w1ZT//////1JL8f8kHO3/JBzt/yQc7fMkG+37JBzt/yQc7f9eWPL/////////
+        /////////////8yp+P95Hu3/eR7t/38o7f/////////////////////////////////+//7/teCu/1K4
+        Qv9KtTn/WrQ3/7ytLf/iqyn/468z//fqyP//////Tkfw/yQc7f8kHO3/JBzt8CMc7fUkHO3/JBzt/1RO
+        8f//////////////////////zKn4/3ke7f95Hu3/fyjt////////////////////////////7Pfq/37K
+        cf9KtTn/SrU5/0q1Of9KtTn/Yb5R/+Tku//9+vL///////r6/v8vKO7/JBzt/yQc7f8kHO3VJBzt5CQc
+        7f8kHO3/RT7w///////////////////////Mqfj/eR7t/3ke7f9/KO3//////////////////////8Hm
+        u/9Xukj/SrU5/0q1Of9KtTn/SrU5/47RhP/0+vP/////////////////urf5/yQc7f8kHO3/JBzt/yQb
+        754kG+zOJBzt/yQc7f8vJ+7//f3//////////////////8yp+P95Hu3/eR7t/38o7f////////////L5
+        8P+Jz37/SrU5/0q1Of9KtTn/SrU5/1m7Sv/G58D///////////////////////z8//9PSPD/JBzt/yQc
+        7f8kHO3/JBrsTyMb7agkHO3/JBzt/yQc7f/f3vz/////////////////zKn4/3ke7f95Hu3/fyjt////
+        ///M6sf/Xb1O/0q1Of9KtTn/SrU5/0q1Of+CzHb/7/jt////////////////////////////ko72/yQc
+        7f8kHO3/JBzt/yQc7d4zAMwFJBzueCQc7f8kHO3/JBzt/66r+P/////////////////Mqfj/eR7t/3ke
+        7f99KOv/ldOL/0u1Ov9KtTn/SrU5/0q1Of9VuUX/uuO0//7//v///////////////////////////62q
+        +P8mHu3/JBzt/yQc7f8kHO3/IxrqVwAAAAAkG+04JBzt/yQc7f8kHO3/a2Xz/////////////////8yp
+        +P95Hu3/eR7t/3Yl5P9KtTn/SrU5/0q1Of9KtTn/eMdr/+j15v//////////////////////////////
+        //+dmff/Jh7t/yQc7f8kHO3/JBzt/yQc7awAAP8BAAAAAEAA/wQkG+zpJBzt/yQc7f8qIu3/6ej9////
+        ////////zKn4/3ke7f95Hu3/diXk/0q1Of9KtTn/ULdA/67ep//9/v3/////////////////////////
+        ///u7f3/bGby/yQc7f8kHO3/JBzt/yQc7f8kHO3QJBLtDgAAAAAAAAAAAAAAACMa7JEkHO3/JBzt/yQc
+        7f94dPT////////////Mqfj/eR7t/3ke7f92JeT/SrU5/27EYf/g8t3/////////////////////////
+        ///7+///paL3/zUu7v8kHO3/JBzt/yQc7f8kHO3/Ixzt0iEW9BcAAAAAAAAAAAAAAAAAAAAAHx/wISQc
+        7fkkHO3/JBzt/yUd7f+wrfj//////9m/+v95Hu3/eR7t/3U11v+j2Zr/+/36////////////////////
+        ///y8v7/o6D3/0E67/8kHO3/JBzt/yQc7f8kHO3/JBzt/yMb7bscHOMSAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJBvtjCQc7f8kHO3/JBzt/ycf7f+Tj/b/9vX+/8GX9v+kZ/L/49H6//////////////////Hw
+        /v+5tvn/cWzz/y4n7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7fkiHO1+AAC/BAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAcHP8JJBvtzyQc7f8kHO3/JBzt/yQc7f81Lu7/c27z/5CM9v+Wkvb/jYj1/3Vw
+        9P9LRPD/KCDt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO6/IRzpLgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmHOwbJBvt1yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jG+3FIxzuSQAA/wEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcHPESJBztqyQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yMc7e4kHO2cIRzxNgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJR3vPiQd
+        7aokHO3wJBzt/yQc7f8kHO3/JBzt/yQc7f8jHO31IxztyyQb7YwkHe1GICDfCAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAADAA
+        AABgAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAD/ASAg9BgkHe1iIxztyiQc7f4kHO3/JBzt/yQc7f8kHO3/JBvu+yQc7cUlG+5nJR7wIhoa
+        /woAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAkJP8HJBvtViMc7cIkG+37JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO39JBzt3SQc7ZsjGu5YJhryFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACoq/wYjHO51JBzt7SQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f4kHO3xJBvt1iQc74AjGu0dAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AyUb62gkHO32JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8lHO3tIxvslyQe
+        8yskJO0OAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIh3rWSQb7fIkHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7e4kG+2oJBzsXBwc8RIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGuoxJBzu2yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/05H8P+tqvj/0tD7/8/N+/+npPf/WVPx/yUd7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBzt8iMc7csjG+xeJCT/BwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwc
+        /wkkG+yWJBzt/SQc7f8kHO3/JBzt/yQc7f8uJu7/iYT1//v7/v/////////+//78+P/+/Pj////+/9TT
+        /P94c/T/Pzjv/ysk7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBztxiYb
+        8EMiIu4PAAD/AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACEc7DYjHO3nJBzt/yQc7f8kHO3/JBzt/ywk7v+Pi/X/9vb+///////9+fD/9N6s/+3M
+        fv/uzoL/9+nH///////8/P//3tz8/6Sh9/9pZPL/Lyju/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7fQjG+2pIxztSAAA/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAACQc7KUkHO3/JBzt/yQc7f8kHO3/JBzt/11X8v/w7/7///////78
+        9//v0oz/468y/+KrKf/iqyr/5LI7//LXm//+/fn///////7+///x8f7/1NP8/4B79P8yK+7/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3+JBzu6yMc7pkfFOsZAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRryJyQb7fskHO3/JBzt/yQc7f8kHO3/Lyfu/9nY
+        /P////////////v06f/jtFL/4qsp/+KrKf/iqyn/4qsp/+OtLf/tzHz/+/Xm////////////////////
+        ///i4f3/hX/0/z437/8qIu3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO7PJh7uPCoq
+        /wYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJBvvjyQc7f8kHO3/JBzt/yQc
+        7f8kHO3/iIT1//////////////////Hn9v+2dZv/2Z85/+KrKf/iqyn/4qsp/+KrKf/irCv/6b9c//fm
+        v//+/fv//////////////////////9/e/P+Zlfb/Ukvx/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JRzu7CQc7YAjF+gWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjF/MWJB3t1iQc
+        7f8kHO3/JBzt/yQc7f87NO//29n8/////////////////+7i/f+MPer/kT+//9KWRv/iqyn/4qsp/+Kr
+        Kf/iqyn/4qsp/+WyPP/y2Jz//vz4///////////////////////8+///6en9/6ai9/89N+//JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7vgkHe2pJhryFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAkGutOJBzt7iQc7f8kHO3/JBzt/yQc7f9xbPP/9PP+/////////////////+7i/f+JOe//eR7t/4Ir
+        2/+/fWn/36cv/+KrKf/iqyn/4qsp/+KrKf/irCv/7Mp7//z26f///v3/////////////////////////
+        ///l5P3/d3L0/zUt7v8lHe3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JRvuwyQb7RwAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAA/wMlHex8JBzt+yQc7f8kHO3/JBzt/ysk7v+lovf//v7//////////////////+7i
+        /f+JOe//eR7t/3ke7f+BKd3/rGOT/+WzPv/iqyn/4qsp/+KrKf/iqyn/4qsp/+i9Vv/25b7//v37////
+        /////////////////////////Pz//8G++v9jXfL/KSHt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7r8iHO4tAAAAAAAAAAAAAAAAAAAAACQk7Q4kG+2oJBzt/yQc7f8kHO3/JBzt/zoz7//S0fv/////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/hDDq//jrzv/nvFT/4qsp/+KrKf/iqyn/4qsp/+Kr
+        Kv/lsjv/8dea//7+/P////////////////////////////7+///s7P3/k4/2/ygg7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f0kG+yxKBvyEwAAAAAAAAAAAAAAACYc7BskHOzOJBzt/yQc7f8kHO3/JBzt/0pD
+        8P/29v7//////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u///////79eb/68Vs/+Ou
+        Mf/iqyn/4qsp/+KrKf/iqyn/4qsp/+vGbf/79OH///79/////////////////////////////////7y5
+        +f9AOe//JR3t/yQc7f8kHO3/JBzt/yQc7f8kHO3+Ih3shkAA/wQAAAAAAAAAACQe7SokG+3yJBzt/yQc
+        7f8kHO3/JBzt/3159P/+/v///////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        /////////vv1//LaoP/ltUP/4qsp/+KrKf/iqyn/4qsp/+KsK//ovVb/9uW7/////f//////////////
+        //////////////39///GxPr/S0Xw/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzs+CMa7VcAAAAAAAAAACUe
+        8EUkHO3+JBzt/yQc7f8kHO3/JBzt/7Ct+P///////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////////////////+/P/468z/57lO/+KrKf/iqyn/4qsp/+KrKf/iqyn/5LE4//DT
+        jv/++/b////////////////////////////+/v//29n8/z847/8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7dMoGO8gAAAAACUb73wkHO3/JBzt/yQc7f8kHO3/JR3t/9fV+////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u/////////////////////////////frz/+zHcf/jrzP/4qsp/+Kr
+        Kf/iqyn/4qsp/+KsK//sx3D/+/Ph/////v///////////////////////////8/O+v86Mu//JBzt/yQc
+        7f8kHO3/JBzt/yQc7PgiG+1wAAD/AiQc7KMkHO3/JBzt/yQc7f8kHO3/Lyju//n4////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////////////////////37
+        9f/y26P/5bVB/+KrKf/iqyn/4qsp/+KrKf/iqyr/57xU//Xjt//+/Pj///////////////////////r6
+        //+YlPb/KyPu/yQc7f8kHO3/JBzt/yQc7f8kG+26JhrmFCMb7bwkHO3/JBzt/yQc7f8kHO3/RkDv////
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////
+        ///////////////////+/fv/+e/V/+i8Vf/iqyn/4qsp/+KrKf/iqyn/4qsp/+SxOP/w05D//vv2////
+        ///////////////////q6v3/Rj/v/yQc7f8kHO3/JBzt/yQc7f8kHOzzIRzpLiQc7tMkHO3/JBzt/yQc
+        7f8kHO3/XVfx/////////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        //////////////////////////////////////////////358P/ty3r/464y/+KrKf/iqyn/4qsp/+Kr
+        Kf/iqyr/68Vs//v04////v3/////////////////paL4/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBvtcCQc
+        7OkkHO3/JBzt/yQc7f8kHO3/bmnz/////////////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////////////////////////////////////////////////////9+vP/89yn/+W1
+        RP/iqyn/4qsp/+KrKf/iqyn/4qsp/+e5Tv/14rX//v35////////////6+r9/y8n7v8kHO3/JBzt/yQc
+        7f8kHO3/IxztriQb7PQkHO3/JBzt/yQc7f8kHO3/fHf0/////////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////////////////////////////////////
+        //////////79//nv1f/pwF3/4qsq/+KrKf/iqyn/4qsp/+KrKf/ksTf/79GK//79+v///////////1NN
+        8f8kHO3/JBzt/yQc7f8kHO3/JBzs0yMc7fckHO3/JBzt/yQc7f8kHO3/hH/1////////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////////////////////
+        //////////////////////////////z++//U58D/ubQ+/9urKv/iqyn/4qsp/+KrKf/iqyn/4qsp/+vF
+        bP/+/fn//////25o8/8kHO3/JBzt/yQc7f8kHO3/JBzu6iQc7fokHO3/JBzt/yQc7f8kHO3/iIT1////
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////////////////////
+        ////////////////////////////////////////8Pnv/6jcn/9gvlH/T7U5/4axMv/KrCv/4asp/+Kr
+        Kf/iqyn/4qsp/+i9Vv/9+vP//////3Nu9P8kHO3/JBzt/yQc7f8kHO3/JBzt7iMb7PckHO3/JBzt/yQc
+        7f8kHO3/g371/////////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        ///////////////////////////////////////////////////a8Nf/dcZn/0+3Pv9KtTn/SrU5/0y1
+        Of9oszb/wa0s/+KrKf/iqyn/5rdG//ntz////////////2Rf8v8kHO3/JBzt/yQc7f8kHO3/Ixzt4SQc
+        7fEkHO3/JBzt/yQc7f8kHO3/d3P0/////////////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u////////////////////////////////////////////9fv0/73ktv9cvEz/SrU5/0q1
+        Of9KtTn/SrU5/0q1Of9KtTn/WrlG/7/Nff/25sH//fz2/////////////Pz//0A67/8kHO3/JBzt/yQc
+        7f8kHO3/Ix3twyQc7eMkHO3/JBzt/yQc7f8kHO3/aWTy/////////////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////////////////////3+/f/a8Nb/is9//063
+        Pf9KtTn/SrU5/0q1Of9KtTn/SrU5/0y2O/9zxmb/xee///3+/P//////////////////////0dD7/yYe
+        7f8kHO3/JBzt/yQc7f8kHO3/IxvslyQb7cwkHO3/JBzt/yQc7f8kHO3/VlDx////////////////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u/////////////////////////////////7zk
+        tv9iv1P/TLY7/0q1Of9KtTn/SrU5/0q1Of9KtTn/SrU5/5fUjf/r9+n//v7+////////////////////
+        ///9/f//c270/yQc7f8kHO3/JBzt/yQc7f8kHO79IxzxSSMb7bQkHO3/JBzt/yQc7f8kHO3/PTbv//7+
+        /////////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u//////////////////3+
+        /f/n9eX/jtGE/0u1Ov9KtTn/SrU5/0q1Of9KtTn/SrU5/0y2O/9mwFf/w+a+//7//v//////////////
+        ///////////////////Pzfv/OTLv/yQc7f8kHO3/JBzt/yQc7f8jG+7fHx/wISQb7pUkHO3/JBzt/yQc
+        7f8kHO3/KCDt/+vq/f///////////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/gy/u////
+        ////////+/36/8Dluv9wxGL/TLY7/0q1Of9KtTn/SrU5/0q1Of9KtTn/ULc//4/Rhf/d8dr//v7+////
+        //////////////////////////////Py/v91b/P/Jh7t/yQc7f8kHO3/JBzt/yQc7f4kHO2bMxr/CiMe
+        7F8kHO3/JBzt/yQc7f8kHO3/JBzt/769+v///////////////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/gy/u///////u+O3/jdCD/1W5Rf9KtTn/SrU5/0q1Of9KtTn/SrU5/0q1Of9fvlD/wua8//b7
+        9f///////////////////////////////////////////6Ke9/8rJO7/JBzt/yQc7f8kHO3/JBzt/yQc
+        7u4jHexQAAD/ASQa7zEkHO75JBzt/yQc7f8kHO3/JBzt/4+K9v///////////////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/gi/t/9Tt0P9wxGL/S7U6/0q1Of9KtTn/SrU5/0q1Of9KtTn/ULdA/3rJ
+        bf/f8tz////////////////////////////////////////////6+v//t7X5/yki7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQd7LIqAP8GAAAAACEZ7x8kHO3aJBzt/yQc7f8kHO3/JBzt/05I8P/19P7/////////
+        /////////////+7i/f+JOe//eR7t/3ke7f95Hu3/eSvj/1m7Sv9KtTn/SrU5/0q1Of9KtTn/SrU5/0q1
+        Ov9iv1T/rd2l//P68v////////////////////////////////////////////n5/v+rp/j/Ni/v/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt4R4Y7SoAAAAAAAAAACAg3xAjHOyuJBzt/yQc7f8kHO3/JBzt/zcw
+        7//Lyfv//////////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1Of9KtTn/SrU5/0q1
+        Of9KtTn/SrU5/3XGaP/a8Nf//P78/////////////////////////////////////////////v7//5eT
+        9v8yKu7/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO30IxrsUAAAAAAAAAAAAAAAAAAAqgMlHe98JRzu+yQc
+        7f8kHO3/JBzt/ygg7f+Tj/b//Pz//////////////////+7i/f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1
+        Of9KtTn/SrU5/0u1Ov9Zu0n/oNiY//r9+f////////////////////////////////////////////39
+        ///h3/z/b2nz/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7vgjG+6EICDfCAAAAAAAAAAAAAAAAAAA
+        AAAjG+xCJBzu6iQc7f8kHO3/JBzt/yQc7f9NRvD/5OP9/////////////////+7i/f+JOe//eR7t/3ke
+        7f95Hu3/dSrf/0q1Of9KtTn/S7U6/3fHa//J6cT/+/37////////////////////////////////////
+        ////////8/P+/6il+P9PSPD/Jh7t/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/SQb7pYkGOcVAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAcHOMJJBvsxyQc7f8kHO3/JBzt/yQc7f8mHu3/iYT1/////////////////+7i
+        /f+JOe//eR7t/3ke7f95Hu3/dSrf/0q1Of9RuEH/o9qb/+/47v/+//7/////////////////////////
+        //////////////39///Ixvr/VlDx/y4m7v8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO39IxztiicU
+        6w0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIhztUyQc7fwkHO3/JBzt/yQc7f8kHO3/Jx/t/7az
+        +P/7+/////////Dm/f+PQ/D/eR7t/3ke7f95Hu3/dDbT/2jBWv/G58D//f78////////////////////
+        //////////////39///w7/7/zs37/21n8/8qIu3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7fEkHeyFGhrmCgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJCTbByQc7bgkHO3/JBzt/yQc
+        7f8kHO3/JBzt/zgx7/+uq/j/+fj+//r3/v+5ifX/fSXt/3ke7f+BLO7/q5jX/+T04f//////////////
+        ///////////////////4+P7/0tH7/56a9/9kX/L/LSXu/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3+Ixzt2CQc7WMXF+gLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMe
+        6zMkHe3nJBzt/yQc7f8kHO3/JBzt/yQc7f8yKu7/fnn0/+no/f/38v7/17v5/7qM9f/cxfr/+vj+////
+        ///////////////////9/f//29r8/6Cc9/9YUvH/OjPv/yoi7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7fwkHO6wJB7tKgAA/wIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAADMz/wUjG+x7JBzt9yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/zEp7v91cPT/uLX5/9LR
+        +//Y1/v/2dj7/9TR+//Ewvr/oJ33/3Bq8/9CPO//Jh7t/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO76Ix3u3yQb7XEaGuYKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkGOcVJBztnCQc7f4kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yUd7f8qIu3/KyPt/yUd7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7t4kG+yGJBjtKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiLuDyQb7JUkHO39JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8jHO3nIhztgCcX8CEkJNsHAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoa
+        5gojG+2CJBzu6iQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f0kHO7tIxzu0iIc7ncfFOsZAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAqANQGIhzuSiQd7akkHO3tJBzt/yQc7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7f4kHO3pJBztuCIb7IYiG+5LIhHuDwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQk7Q4iHfA0JB3tjiMc7dkkHO39JBzt/yQc
+        7f8kHO3/JBzt/yQc7f8kHO3/JBzt/yQc7fckHO3PJBztnCUc7FIhGusnKBvyE0AA/wQAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>TR-ControlPlayer 局域网多媒体播放器控制系统</value>
+  </data>
+  <data name="&gt;&gt;显示主程序ToolStripMenuItem.Name" xml:space="preserve">
+    <value>显示主程序ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;显示主程序ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;技术支持.Name" xml:space="preserve">
+    <value>技术支持</value>
+  </data>
+  <data name="&gt;&gt;技术支持.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;开启启动ToolStripMenuItem.Name" xml:space="preserve">
+    <value>开启启动ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;开启启动ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关闭开机启动ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关闭开机启动ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关闭开机启动ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;退出.Name" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="&gt;&gt;退出.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;文件ToolStripMenuItem.Name" xml:space="preserve">
+    <value>文件ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;文件ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;开机启动ToolStripMenuItem.Name" xml:space="preserve">
+    <value>开机启动ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;开机启动ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;开启ToolStripMenuItem.Name" xml:space="preserve">
+    <value>开启ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;开启ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关闭ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关闭ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关闭ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;功能ToolStripMenuItem.Name" xml:space="preserve">
+    <value>功能ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;功能ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;定时关机设置ToolStripMenuItem.Name" xml:space="preserve">
+    <value>定时关机设置ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;定时关机设置ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关于ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;帮助文档ToolStripMenuItem.Name" xml:space="preserve">
+    <value>帮助文档ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;帮助文档ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;技术支持ToolStripMenuItem.Name" xml:space="preserve">
+    <value>技术支持ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;技术支持ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem1.Name" xml:space="preserve">
+    <value>关于ToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;关于ToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;myIcon.Name" xml:space="preserve">
+    <value>myIcon</value>
+  </data>
+  <data name="&gt;&gt;myIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
