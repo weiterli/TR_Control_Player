@@ -199,7 +199,7 @@
     <value>2</value>
   </data>
   <data name="ipTbx.Text" xml:space="preserve">
-    <value>192.168.1.1</value>
+    <value>请点击获取按钮</value>
   </data>
   <data name="&gt;&gt;ipTbx.Name" xml:space="preserve">
     <value>ipTbx</value>
@@ -621,6 +621,75 @@
   <data name="&gt;&gt;webPathBtn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;standbyBtn.Name" xml:space="preserve">
+    <value>standbyBtn</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;standbyBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Name" xml:space="preserve">
+    <value>standbyTbx</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;standbyTbx.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="palyPathGbx.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="palyPathGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 147</value>
+  </data>
+  <data name="palyPathGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="palyPathGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="palyPathGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 222</value>
+  </data>
+  <data name="palyPathGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="palyPathGbx.Text" xml:space="preserve">
+    <value>播放目录设置</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Name" xml:space="preserve">
+    <value>palyPathGbx</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;palyPathGbx.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="standbyBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -723,38 +792,170 @@
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="palyPathGbx.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;setMacBtn.Name" xml:space="preserve">
+    <value>setMacBtn</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;setMacBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Name" xml:space="preserve">
+    <value>setIpBtn</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;setIpBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Name" xml:space="preserve">
+    <value>udpPortSetBtn</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortSetBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Name" xml:space="preserve">
+    <value>tcpPortSetBtn</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortSetBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Name" xml:space="preserve">
+    <value>udpPortLab</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortLab.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Name" xml:space="preserve">
+    <value>udpPortTbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;udpPortTbx.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Name" xml:space="preserve">
+    <value>getMacBtn</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;getMacBtn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;macLab.Name" xml:space="preserve">
+    <value>macLab</value>
+  </data>
+  <data name="&gt;&gt;macLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macLab.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;macLab.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Name" xml:space="preserve">
+    <value>macTbx</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;macTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;macTbx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Name" xml:space="preserve">
+    <value>getIpBtn</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;getIpBtn.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Name" xml:space="preserve">
+    <value>tcpPortTbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.Parent" xml:space="preserve">
+    <value>netGbx</value>
+  </data>
+  <data name="&gt;&gt;tcpPortTbx.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="netGbx.Font" type="System.Drawing.Font, System.Drawing">
     <value>宋体, 10.5pt</value>
   </data>
-  <data name="palyPathGbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 147</value>
+  <data name="netGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 30</value>
   </data>
-  <data name="palyPathGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="netGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="palyPathGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="netGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="palyPathGbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>506, 222</value>
+  <data name="netGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 109</value>
   </data>
-  <data name="palyPathGbx.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="netGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="palyPathGbx.Text" xml:space="preserve">
-    <value>播放目录设置</value>
+  <data name="netGbx.Text" xml:space="preserve">
+    <value>网络配置</value>
   </data>
-  <data name="&gt;&gt;palyPathGbx.Name" xml:space="preserve">
-    <value>palyPathGbx</value>
+  <data name="&gt;&gt;netGbx.Name" xml:space="preserve">
+    <value>netGbx</value>
   </data>
-  <data name="&gt;&gt;palyPathGbx.Type" xml:space="preserve">
+  <data name="&gt;&gt;netGbx.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;palyPathGbx.Parent" xml:space="preserve">
+  <data name="&gt;&gt;netGbx.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;palyPathGbx.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;netGbx.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="setMacBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -1045,7 +1246,7 @@
     <value>21</value>
   </data>
   <data name="macTbx.Text" xml:space="preserve">
-    <value>11-22-33-44-55-66</value>
+    <value>请点击获取按钮</value>
   </data>
   <data name="&gt;&gt;macTbx.Name" xml:space="preserve">
     <value>macTbx</value>
@@ -1125,39 +1326,6 @@
   <data name="&gt;&gt;tcpPortTbx.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="netGbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 10.5pt</value>
-  </data>
-  <data name="netGbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 30</value>
-  </data>
-  <data name="netGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="netGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="netGbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>745, 109</value>
-  </data>
-  <data name="netGbx.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="netGbx.Text" xml:space="preserve">
-    <value>网络配置</value>
-  </data>
-  <data name="&gt;&gt;netGbx.Name" xml:space="preserve">
-    <value>netGbx</value>
-  </data>
-  <data name="&gt;&gt;netGbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;netGbx.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;netGbx.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="setNetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -1168,7 +1336,7 @@
     <value>NoControl</value>
   </data>
   <data name="setNetBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 21</value>
+    <value>112, 21</value>
   </data>
   <data name="setNetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1192,7 +1360,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;setNetBtn.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>142, 17</value>
@@ -1200,41 +1368,8 @@
   <metadata name="myMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>471, 17</value>
   </metadata>
-  <data name="显示主程序ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="显示主程序ToolStripMenuItem.Text" xml:space="preserve">
-    <value>显示主程序</value>
-  </data>
-  <data name="技术支持.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="技术支持.Text" xml:space="preserve">
-    <value>技术支持&amp;官网</value>
-  </data>
-  <data name="技术支持.ToolTipText" xml:space="preserve">
-    <value>打开官网</value>
-  </data>
-  <data name="开启启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="开启启动ToolStripMenuItem.Text" xml:space="preserve">
-    <value>开启启动</value>
-  </data>
-  <data name="关闭开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="关闭开机启动ToolStripMenuItem.Text" xml:space="preserve">
-    <value>关闭开机启动</value>
-  </data>
-  <data name="退出.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 22</value>
-  </data>
-  <data name="退出.Text" xml:space="preserve">
-    <value>退出</value>
-  </data>
   <data name="myMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 114</value>
+    <value>180, 224</value>
   </data>
   <data name="&gt;&gt;myMenu.Name" xml:space="preserve">
     <value>myMenu</value>
@@ -1242,59 +1377,17 @@
   <data name="&gt;&gt;myMenu.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="开启ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
-  </data>
-  <data name="开启ToolStripMenuItem.Text" xml:space="preserve">
-    <value>开启</value>
-  </data>
-  <data name="关闭ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 22</value>
-  </data>
-  <data name="关闭ToolStripMenuItem.Text" xml:space="preserve">
-    <value>关闭</value>
-  </data>
-  <data name="开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 22</value>
-  </data>
-  <data name="开机启动ToolStripMenuItem.Text" xml:space="preserve">
-    <value>开机启动</value>
-  </data>
   <data name="文件ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 20</value>
   </data>
   <data name="文件ToolStripMenuItem.Text" xml:space="preserve">
     <value>文件</value>
   </data>
-  <data name="定时关机设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
-  </data>
-  <data name="定时关机设置ToolStripMenuItem.Text" xml:space="preserve">
-    <value>定时关机设置</value>
-  </data>
   <data name="功能ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 20</value>
   </data>
   <data name="功能ToolStripMenuItem.Text" xml:space="preserve">
     <value>功能</value>
-  </data>
-  <data name="帮助文档ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="帮助文档ToolStripMenuItem.Text" xml:space="preserve">
-    <value>帮助文档</value>
-  </data>
-  <data name="技术支持ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="技术支持ToolStripMenuItem.Text" xml:space="preserve">
-    <value>技术支持 官网</value>
-  </data>
-  <data name="关于ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="关于ToolStripMenuItem1.Text" xml:space="preserve">
-    <value>关于软件</value>
   </data>
   <data name="关于ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>78, 20</value>
@@ -1329,8 +1422,113 @@
   <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="显示主程序ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="显示主程序ToolStripMenuItem.Text" xml:space="preserve">
+    <value>显示主程序</value>
+  </data>
+  <data name="隐藏主界面ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="隐藏主界面ToolStripMenuItem.Text" xml:space="preserve">
+    <value>隐藏主界面</value>
+  </data>
+  <data name="toolStripMenuItem4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>---------------</value>
+  </data>
+  <data name="开启启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="开启启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开启 开机启动</value>
+  </data>
+  <data name="关闭开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="关闭开机启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关闭 开机启动</value>
+  </data>
+  <data name="toolStripMenuItem3.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>---------------</value>
+  </data>
+  <data name="关于软件ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="关于软件ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关于软件</value>
+  </data>
+  <data name="技术支持.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="技术支持.Text" xml:space="preserve">
+    <value>技术支持&amp;官网</value>
+  </data>
+  <data name="技术支持.ToolTipText" xml:space="preserve">
+    <value>打开官网</value>
+  </data>
+  <data name="toolStripMenuItem2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="toolStripMenuItem2.Text" xml:space="preserve">
+    <value>---------------</value>
+  </data>
+  <data name="退出.Size" type="System.Drawing.Size, System.Drawing">
+    <value>179, 22</value>
+  </data>
+  <data name="退出.Text" xml:space="preserve">
+    <value>退出软件</value>
+  </data>
+  <data name="开机启动ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="开机启动ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开机启动</value>
+  </data>
+  <data name="定时关机设置ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="定时关机设置ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开发中...</value>
+  </data>
+  <data name="帮助文档ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="帮助文档ToolStripMenuItem.Text" xml:space="preserve">
+    <value>帮助文档</value>
+  </data>
+  <data name="技术支持ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="技术支持ToolStripMenuItem.Text" xml:space="preserve">
+    <value>技术支持 官网</value>
+  </data>
+  <data name="关于ToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="关于ToolStripMenuItem1.Text" xml:space="preserve">
+    <value>关于软件</value>
+  </data>
   <data name="standPlayCbx.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="standPlayCbx.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="standPlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1365,6 +1563,9 @@
   <data name="radmonPlayBtn.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="radmonPlayBtn.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="radmonPlayBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1397,6 +1598,9 @@
   </data>
   <data name="listPlayCbx.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="listPlayCbx.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="listPlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1431,6 +1635,9 @@
   <data name="onyOnePlayCbx.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="onyOnePlayCbx.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="onyOnePlayCbx.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1460,6 +1667,75 @@
   </data>
   <data name="&gt;&gt;onyOnePlayCbx.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Name" xml:space="preserve">
+    <value>muteBtn</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;muteBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Name" xml:space="preserve">
+    <value>volDownBtn</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;volDownBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Name" xml:space="preserve">
+    <value>volUpBtn</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;volUpBtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>515, 147</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 222</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>播放模式设置</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="muteBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -1569,38 +1845,209 @@
   <data name="&gt;&gt;volUpBtn.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="&gt;&gt;btnUdpConnect.Name" xml:space="preserve">
+    <value>btnUdpConnect</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;btnUdpConnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Name" xml:space="preserve">
+    <value>labSendMsgPort</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgPort.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Name" xml:space="preserve">
+    <value>labSendMsgIp</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;labSendMsgIp.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Name" xml:space="preserve">
+    <value>textSendMsgPort</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgPort.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Name" xml:space="preserve">
+    <value>btnUdpSendMsg</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;btnUdpSendMsg.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Name" xml:space="preserve">
+    <value>textSendMsgIp</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;textSendMsgIp.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Name" xml:space="preserve">
+    <value>udpSendMsgRtbx</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;udpSendMsgRtbx.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Name" xml:space="preserve">
+    <value>udpRecevieMsgRtbx</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;udpRecevieMsgRtbx.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Name" xml:space="preserve">
+    <value>chfsCbx</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;chfsCbx.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Name" xml:space="preserve">
+    <value>openUdpServerCbx</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;openUdpServerCbx.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Name" xml:space="preserve">
+    <value>checkBox5</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;checkBox5.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Name" xml:space="preserve">
+    <value>autoRunCkbx</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.Parent" xml:space="preserve">
+    <value>softStatusGbx</value>
+  </data>
+  <data name="&gt;&gt;autoRunCkbx.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="softStatusGbx.Font" type="System.Drawing.Font, System.Drawing">
     <value>宋体, 10.5pt</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>515, 147</value>
+  <data name="softStatusGbx.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 377</value>
   </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="softStatusGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="softStatusGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 222</value>
+  <data name="softStatusGbx.Size" type="System.Drawing.Size, System.Drawing">
+    <value>745, 144</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="softStatusGbx.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>播放模式设置</value>
+  <data name="softStatusGbx.Text" xml:space="preserve">
+    <value>后台服务：</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;softStatusGbx.Name" xml:space="preserve">
+    <value>softStatusGbx</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;softStatusGbx.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;softStatusGbx.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;softStatusGbx.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnUdpConnect.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnUdpConnect.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -1639,7 +2086,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>410, 68</value>
+    <value>410, 67</value>
   </data>
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -1777,7 +2224,7 @@
     <value>36</value>
   </data>
   <data name="textSendMsgPort.Text" xml:space="preserve">
-    <value>12345</value>
+    <value>6600</value>
   </data>
   <data name="textSendMsgPort.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -1793,6 +2240,9 @@
   </data>
   <data name="&gt;&gt;textSendMsgPort.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="btnUdpSendMsg.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="btnUdpSendMsg.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -1825,7 +2275,7 @@
     <value>6</value>
   </data>
   <data name="textSendMsgIp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>479, 23</value>
+    <value>479, 25</value>
   </data>
   <data name="textSendMsgIp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 7, 7, 7</value>
@@ -1837,7 +2287,7 @@
     <value>36</value>
   </data>
   <data name="textSendMsgIp.Text" xml:space="preserve">
-    <value>192.168.1.1</value>
+    <value>192.168.1.200</value>
   </data>
   <data name="&gt;&gt;textSendMsgIp.Name" xml:space="preserve">
     <value>textSendMsgIp</value>
@@ -1876,7 +2326,7 @@
     <value>8</value>
   </data>
   <data name="udpRecevieMsgRtbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 59</value>
+    <value>114, 60</value>
   </data>
   <data name="udpRecevieMsgRtbx.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
     <value>Horizontal</value>
@@ -1909,7 +2359,7 @@
     <value>NoControl</value>
   </data>
   <data name="chfsCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 24</value>
+    <value>114, 27</value>
   </data>
   <data name="chfsCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1945,7 +2395,7 @@
     <value>NoControl</value>
   </data>
   <data name="openUdpServerCbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 24</value>
+    <value>218, 27</value>
   </data>
   <data name="openUdpServerCbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -1978,7 +2428,7 @@
     <value>NoControl</value>
   </data>
   <data name="checkBox5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>316, 24</value>
+    <value>316, 27</value>
   </data>
   <data name="checkBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2011,7 +2461,7 @@
     <value>NoControl</value>
   </data>
   <data name="autoRunCkbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 24</value>
+    <value>16, 27</value>
   </data>
   <data name="autoRunCkbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2036,39 +2486,6 @@
   </data>
   <data name="&gt;&gt;autoRunCkbx.ZOrder" xml:space="preserve">
     <value>13</value>
-  </data>
-  <data name="softStatusGbx.Font" type="System.Drawing.Font, System.Drawing">
-    <value>宋体, 10.5pt</value>
-  </data>
-  <data name="softStatusGbx.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 377</value>
-  </data>
-  <data name="softStatusGbx.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="softStatusGbx.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="softStatusGbx.Size" type="System.Drawing.Size, System.Drawing">
-    <value>745, 144</value>
-  </data>
-  <data name="softStatusGbx.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="softStatusGbx.Text" xml:space="preserve">
-    <value>后台服务：</value>
-  </data>
-  <data name="&gt;&gt;softStatusGbx.Name" xml:space="preserve">
-    <value>softStatusGbx</value>
-  </data>
-  <data name="&gt;&gt;softStatusGbx.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;softStatusGbx.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;softStatusGbx.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="isOnLinLab.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2380,7 +2797,7 @@
 </value>
   </data>
   <data name="myIcon.Text" xml:space="preserve">
-    <value>多媒体播放控制系统</value>
+    <value>TR-ControlPlayer 局域网多媒体播放器控制系统</value>
   </data>
   <data name="myIcon.Visible" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2434,7 +2851,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnWin10Startup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 72</value>
+    <value>632, 21</value>
   </data>
   <data name="btnWin10Startup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2447,9 +2864,6 @@
   </data>
   <data name="btnWin10Startup.Text" xml:space="preserve">
     <value>win10启动文件夹</value>
-  </data>
-  <data name="btnWin10Startup.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;btnWin10Startup.Name" xml:space="preserve">
     <value>btnWin10Startup</value>
@@ -2473,7 +2887,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnWin7Startup.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 73</value>
+    <value>528, 21</value>
   </data>
   <data name="btnWin7Startup.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2486,9 +2900,6 @@
   </data>
   <data name="btnWin7Startup.Text" xml:space="preserve">
     <value>win7启动文件夹</value>
-  </data>
-  <data name="btnWin7Startup.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
   </data>
   <data name="&gt;&gt;btnWin7Startup.Name" xml:space="preserve">
     <value>btnWin7Startup</value>
@@ -2512,7 +2923,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSoundSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>528, 21</value>
+    <value>424, 21</value>
   </data>
   <data name="btnSoundSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2548,7 +2959,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnOpenVlcPlayer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 73</value>
+    <value>216, 72</value>
   </data>
   <data name="btnOpenVlcPlayer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2577,6 +2988,42 @@
   <data name="&gt;&gt;btnOpenVlcPlayer.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 10.5pt</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 73</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 43</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>任务管理器</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>sysSetGbx</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="firewallSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -2587,7 +3034,7 @@
     <value>NoControl</value>
   </data>
   <data name="firewallSetBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 21</value>
+    <value>9, 72</value>
   </data>
   <data name="firewallSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2601,6 +3048,9 @@
   <data name="firewallSetBtn.Text" xml:space="preserve">
     <value>安全中心</value>
   </data>
+  <data name="firewallSetBtn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;firewallSetBtn.Name" xml:space="preserve">
     <value>firewallSetBtn</value>
   </data>
@@ -2611,7 +3061,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;firewallSetBtn.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="deskSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2623,7 +3073,7 @@
     <value>NoControl</value>
   </data>
   <data name="deskSetBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 21</value>
+    <value>320, 21</value>
   </data>
   <data name="deskSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2647,7 +3097,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;deskSetBtn.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="systemPowerSetBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2659,7 +3109,7 @@
     <value>NoControl</value>
   </data>
   <data name="systemPowerSetBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 21</value>
+    <value>216, 21</value>
   </data>
   <data name="systemPowerSetBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2683,7 +3133,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;systemPowerSetBtn.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="fileServerBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2719,7 +3169,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;fileServerBtn.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="ftpBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2731,7 +3181,7 @@
     <value>NoControl</value>
   </data>
   <data name="ftpBtn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>424, 72</value>
+    <value>110, 72</value>
   </data>
   <data name="ftpBtn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -2758,7 +3208,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;ftpBtn.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="exitBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2794,7 +3244,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="defaultConfigBtn.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2818,10 +3268,7 @@
     <value>27</value>
   </data>
   <data name="defaultConfigBtn.Text" xml:space="preserve">
-    <value>默认设置</value>
-  </data>
-  <data name="defaultConfigBtn.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
+    <value>重启软件</value>
   </data>
   <data name="&gt;&gt;defaultConfigBtn.Name" xml:space="preserve">
     <value>defaultConfigBtn</value>
@@ -2833,7 +3280,7 @@
     <value>sysSetGbx</value>
   </data>
   <data name="&gt;&gt;defaultConfigBtn.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="sysSetGbx.Font" type="System.Drawing.Font, System.Drawing">
     <value>宋体, 10.5pt</value>
@@ -2867,6 +3314,42 @@
   </data>
   <data name="&gt;&gt;sysSetGbx.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="网络唤醒工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="网络唤醒工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>网络唤醒工具</value>
+  </data>
+  <data name="开启ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="开启ToolStripMenuItem.Text" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="关闭ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="关闭ToolStripMenuItem.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="局域网扫描ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="局域网扫描ToolStripMenuItem.Text" xml:space="preserve">
+    <value>局域网扫描</value>
+  </data>
+  <data name="定时运行工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="定时运行工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>定时运行工具</value>
+  </data>
+  <data name="远程关机工具ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="远程关机工具ToolStripMenuItem.Text" xml:space="preserve">
+    <value>远程关机工具</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -3144,6 +3627,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -3159,10 +3645,16 @@
   <data name="&gt;&gt;显示主程序ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;技术支持.Name" xml:space="preserve">
-    <value>技术支持</value>
+  <data name="&gt;&gt;隐藏主界面ToolStripMenuItem.Name" xml:space="preserve">
+    <value>隐藏主界面ToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;技术支持.Type" xml:space="preserve">
+  <data name="&gt;&gt;隐藏主界面ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Name" xml:space="preserve">
+    <value>toolStripMenuItem4</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem4.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;开启启动ToolStripMenuItem.Name" xml:space="preserve">
@@ -3175,6 +3667,30 @@
     <value>关闭开机启动ToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;关闭开机启动ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Name" xml:space="preserve">
+    <value>toolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关于软件ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关于软件ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关于软件ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;技术支持.Name" xml:space="preserve">
+    <value>技术支持</value>
+  </data>
+  <data name="&gt;&gt;技术支持.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Name" xml:space="preserve">
+    <value>toolStripMenuItem2</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItem2.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;退出.Name" xml:space="preserve">
@@ -3193,18 +3709,6 @@
     <value>开机启动ToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;开机启动ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;开启ToolStripMenuItem.Name" xml:space="preserve">
-    <value>开启ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;开启ToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;关闭ToolStripMenuItem.Name" xml:space="preserve">
-    <value>关闭ToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;关闭ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;功能ToolStripMenuItem.Name" xml:space="preserve">
@@ -3254,6 +3758,42 @@
   </data>
   <data name="&gt;&gt;myIcon.Type" xml:space="preserve">
     <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;网络唤醒工具ToolStripMenuItem.Name" xml:space="preserve">
+    <value>网络唤醒工具ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;网络唤醒工具ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;开启ToolStripMenuItem.Name" xml:space="preserve">
+    <value>开启ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;开启ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;关闭ToolStripMenuItem.Name" xml:space="preserve">
+    <value>关闭ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;关闭ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;局域网扫描ToolStripMenuItem.Name" xml:space="preserve">
+    <value>局域网扫描ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;局域网扫描ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;定时运行工具ToolStripMenuItem.Name" xml:space="preserve">
+    <value>定时运行工具ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;定时运行工具ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;远程关机工具ToolStripMenuItem.Name" xml:space="preserve">
+    <value>远程关机工具ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;远程关机工具ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

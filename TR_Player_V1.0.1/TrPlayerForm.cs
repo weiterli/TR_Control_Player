@@ -33,6 +33,7 @@ namespace TR_Player
             {
                 //MessageBox.Show("欢迎使用TR_Player局域网控制播放系统", "提示：", MessageBoxButtons.OK);
                 InitializeComponent();
+                隐藏主界面ToolStripMenuItem.Enabled = false;
             }
 
         }
@@ -62,7 +63,7 @@ namespace TR_Player
             /*satartSerialSet();*/              //串口功能实现                   
             SoftStartByAutoSet();               //开启自动打服务                 ok！
             StartListen(null, null);            //开启UDP服务并监听
-            StartNetlSet();                     //网络链接检测                   ok！ 此功能需要优化
+            //StartNetlSet();                     //网络链接检测                   ok！ 此功能需要优化
                                                 //播放器服务（VLC/MMPEG) 实现播放+推流 平板处需要实现拉流显示和控制
 
         }
@@ -177,9 +178,6 @@ namespace TR_Player
             string PlayConfigPath = @"D:\TRPLAYER\CONFIG.ini";
             string softRegFilePath = @"C:\Users\Administrator\Documents\MyControlSoft\key.tr";
 
-
-
-
             // 创建默认文件对象
             FileInfo myfile = new FileInfo(PlayConfigPath);
             FileInfo trRegFile = new FileInfo(softRegFilePath);
@@ -288,8 +286,8 @@ namespace TR_Player
         #endregion
 
         #region =======打开文件服务器 WEB版=======
-        readonly string exe_path = Application.StartupPath + @"\chfs\chfs.exe";  // 被调exe程序
-        readonly string[] the_args = { "--file=" + Application.StartupPath + @"\chfs\chfs.ini" };   // 被调exe需要的参数
+        private readonly string exe_path = Application.StartupPath + @"\chfs\chfs.exe";  // 被调exe程序
+        private readonly string[] the_args = { "--file=" + Application.StartupPath + @"\chfs\chfs.ini" };   // 被调exe需要的参数
 
         private void ChfsOpen()
         {
@@ -299,7 +297,7 @@ namespace TR_Player
                 StartProcess(exe_path, the_args);
                 chfsCbx.Checked = true;
                 //proc.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-                // MessageBox.Show("文件服务器已开启2222", "提示信息", MessageBoxButtons.OK);
+                //MessageBox.Show("文件服务器已开启!!!", "提示信息", MessageBoxButtons.OK);
                 //string url = "http://localhost:8080";
                 //Process.Start(url);
                 //proc.WaitForExit();
@@ -337,7 +335,7 @@ namespace TR_Player
 
         private void IsChfsOpen()
         {
-            //此处需要判断系统进程中是否有 chfs.exe在运行，如果没有运行则打开  如果发现进程中有chfs.exe则跳出网页
+            //此处判断系统进程中是否有 chfs.exe在运行，如果没有运行则打开  如果发现进程中有chfs.exe则跳出网页
             try
             {
                 Process[] processList = Process.GetProcessesByName("chfs");
@@ -353,6 +351,7 @@ namespace TR_Player
                     }
                     else
                     {
+                        MessageBox.Show("文件服务器已关闭，点击确认后自动打开文件服务器!!!", "提示信息", MessageBoxButtons.OK);
                         ChfsOpen();
                     }
                 }
@@ -470,18 +469,18 @@ namespace TR_Player
         {
             Ping ping = new Ping();
             string url = "192.168.1.1";
-            //string url1 = "192.168.8.1";
-            //string url2 = "192.168.2.1";
-            //string url3 = "192.168.0.1";
+            string url1 = "192.168.8.1";
+            string url2 = "192.168.2.1";
+            string url3 = "192.168.0.1";
             string hostIP = ipTbx.Text.ToString();
             //网络链接检测  此处需要进程来执行 未完善
             try
             {
                 PingReply pr = ping.Send(url);
-                //PingReply pr1 = ping.Send(url1);
-                //PingReply pr2 = ping.Send(url2);
-                //PingReply pr3 = ping.Send(url3);
-                if (pr.Status == IPStatus.Success /*|| pr1.Status == IPStatus.Success || pr2.Status == IPStatus.Success || pr3.Status == IPStatus.Success*/)
+                PingReply pr1 = ping.Send(url1);
+                PingReply pr2 = ping.Send(url2);
+                PingReply pr3 = ping.Send(url3);
+                if (pr.Status == IPStatus.Success || pr1.Status == IPStatus.Success || pr2.Status == IPStatus.Success || pr3.Status == IPStatus.Success)
                 {
                     isOnLinLab.ForeColor = Color.Green;
                     isOnLinLab.Text = "网络 已连接";
@@ -642,7 +641,9 @@ namespace TR_Player
 
         private void 关于ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            AboutUs aboutRight = new AboutUs();
+            aboutRight.StartPosition = FormStartPosition.CenterScreen;
+            aboutRight.Show();
         }
 
         private void 测试工具ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -701,6 +702,8 @@ namespace TR_Player
                 ShowInTaskbar = false;
                 //this.Opacity = 0;
                 myIcon.Icon = this.Icon;
+                显示主程序ToolStripMenuItem.Enabled = true;
+                隐藏主界面ToolStripMenuItem.Enabled = false;
 
             }
         }
@@ -747,6 +750,8 @@ namespace TR_Player
             ShowInTaskbar = true;//在任务栏中显示
             Visible = true;
             WindowState = FormWindowState.Normal;//窗口默认显示
+            显示主程序ToolStripMenuItem.Enabled = false;
+            隐藏主界面ToolStripMenuItem.Enabled = true;
         }
 
 
@@ -833,6 +838,8 @@ namespace TR_Player
             ShowInTaskbar = false;
             //this.Opacity = 0;
             myIcon.Icon = this.Icon;
+            显示主程序ToolStripMenuItem.Enabled = true;
+            隐藏主界面ToolStripMenuItem.Enabled = false;
 
         }
 
@@ -1019,7 +1026,7 @@ namespace TR_Player
 
         private void FirewallSetBtn_Click(object sender, EventArgs e)
         {
-            Process.Start("WindowsFirewall.cpl");
+           Process.Start(@"C:\WINDOWS\system32\taskmgr.exe");
 
         }
 
@@ -1062,7 +1069,7 @@ namespace TR_Player
 
         private void 定时关机设置ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FormTimeSet().ShowDialog();
+            //new FormTimeSet().ShowDialog();
         }
 
         private void btnSoundSet_Click(object sender, EventArgs e)
@@ -1072,6 +1079,42 @@ namespace TR_Player
 
         private void btnWin7Startup_Click(object sender, EventArgs e)
         {
+            Process.Start("Startup");//打开声音设置窗口
+        }
+
+        private void btnWin10Startup_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void 隐藏主界面ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            ShowInTaskbar = false;
+            //this.Opacity = 0;
+            myIcon.Icon = this.Icon;
+            隐藏主界面ToolStripMenuItem.Enabled = false;
+            显示主程序ToolStripMenuItem.Enabled = true;
+        }
+
+        private void 网络唤醒工具ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new WolSoft().ShowDialog(); 
+        }
+
+        private void openUdpServerCbx_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void defaultConfigBtn_Click(object sender, EventArgs e)
+        {
+            Process process = Process.GetCurrentProcess();
+            ChfsClose();//关闭软件 关闭文件服务器
+            thrRecv.Abort();
+            udpcRecv.Close();
+            process.Close();
+            Application.Restart();
+
         }
     }
 }

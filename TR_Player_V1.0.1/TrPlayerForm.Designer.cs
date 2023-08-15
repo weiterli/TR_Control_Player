@@ -65,14 +65,17 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.myMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.显示主程序ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.技术支持 = new System.Windows.Forms.ToolStripMenuItem();
+            this.隐藏主界面ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.开启启动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关闭开机启动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于软件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.技术支持 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.退出 = new System.Windows.Forms.ToolStripMenuItem();
             this.文件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.开机启动ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.开启ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.关闭ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.功能ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.定时关机设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -118,6 +121,13 @@
             this.ftpBtn = new System.Windows.Forms.Button();
             this.exitBtn = new System.Windows.Forms.Button();
             this.defaultConfigBtn = new System.Windows.Forms.Button();
+            this.网络唤醒工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.开启ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关闭ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.局域网扫描ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.定时运行工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.远程关机工具ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.palyPathGbx.SuspendLayout();
             this.netGbx.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -387,13 +397,19 @@
             // 
             this.myMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.显示主程序ToolStripMenuItem,
-            this.技术支持,
+            this.隐藏主界面ToolStripMenuItem,
+            this.toolStripMenuItem4,
             this.开启启动ToolStripMenuItem,
             this.关闭开机启动ToolStripMenuItem,
+            this.toolStripMenuItem3,
+            this.关于软件ToolStripMenuItem,
+            this.技术支持,
+            this.toolStripMenuItem2,
             this.退出});
             this.myMenu.Name = "myMenu";
             this.myMenu.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.myMenu.ShowCheckMargin = true;
+            this.myMenu.ShowImageMargin = false;
             resources.ApplyResources(this.myMenu, "myMenu");
             // 
             // 显示主程序ToolStripMenuItem
@@ -402,11 +418,16 @@
             resources.ApplyResources(this.显示主程序ToolStripMenuItem, "显示主程序ToolStripMenuItem");
             this.显示主程序ToolStripMenuItem.Click += new System.EventHandler(this.显示主程序ToolStripMenuItem_Click);
             // 
-            // 技术支持
+            // 隐藏主界面ToolStripMenuItem
             // 
-            this.技术支持.Name = "技术支持";
-            resources.ApplyResources(this.技术支持, "技术支持");
-            this.技术支持.Click += new System.EventHandler(this.技术支持_Click);
+            this.隐藏主界面ToolStripMenuItem.Name = "隐藏主界面ToolStripMenuItem";
+            resources.ApplyResources(this.隐藏主界面ToolStripMenuItem, "隐藏主界面ToolStripMenuItem");
+            this.隐藏主界面ToolStripMenuItem.Click += new System.EventHandler(this.隐藏主界面ToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            resources.ApplyResources(this.toolStripMenuItem4, "toolStripMenuItem4");
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             // 
             // 开启启动ToolStripMenuItem
             // 
@@ -419,6 +440,28 @@
             this.关闭开机启动ToolStripMenuItem.Name = "关闭开机启动ToolStripMenuItem";
             resources.ApplyResources(this.关闭开机启动ToolStripMenuItem, "关闭开机启动ToolStripMenuItem");
             this.关闭开机启动ToolStripMenuItem.Click += new System.EventHandler(this.关闭开机启动ToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            // 
+            // 关于软件ToolStripMenuItem
+            // 
+            this.关于软件ToolStripMenuItem.Name = "关于软件ToolStripMenuItem";
+            resources.ApplyResources(this.关于软件ToolStripMenuItem, "关于软件ToolStripMenuItem");
+            this.关于软件ToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
+            // 
+            // 技术支持
+            // 
+            this.技术支持.Name = "技术支持";
+            resources.ApplyResources(this.技术支持, "技术支持");
+            this.技术支持.Click += new System.EventHandler(this.技术支持_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            resources.ApplyResources(this.toolStripMenuItem2, "toolStripMenuItem2");
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             // 
             // 退出
             // 
@@ -441,20 +484,6 @@
             this.开机启动ToolStripMenuItem.Name = "开机启动ToolStripMenuItem";
             resources.ApplyResources(this.开机启动ToolStripMenuItem, "开机启动ToolStripMenuItem");
             // 
-            // 开启ToolStripMenuItem
-            // 
-            this.开启ToolStripMenuItem.Image = global::TR_Player.Properties.Resources.Monitor1;
-            this.开启ToolStripMenuItem.Name = "开启ToolStripMenuItem";
-            resources.ApplyResources(this.开启ToolStripMenuItem, "开启ToolStripMenuItem");
-            this.开启ToolStripMenuItem.Click += new System.EventHandler(this.开启ToolStripMenuItem_Click);
-            // 
-            // 关闭ToolStripMenuItem
-            // 
-            this.关闭ToolStripMenuItem.Image = global::TR_Player.Properties.Resources.Monitor01;
-            this.关闭ToolStripMenuItem.Name = "关闭ToolStripMenuItem";
-            resources.ApplyResources(this.关闭ToolStripMenuItem, "关闭ToolStripMenuItem");
-            this.关闭ToolStripMenuItem.Click += new System.EventHandler(this.关闭ToolStripMenuItem_Click);
-            // 
             // 功能ToolStripMenuItem
             // 
             this.功能ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -464,6 +493,11 @@
             // 
             // 定时关机设置ToolStripMenuItem
             // 
+            this.定时关机设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.网络唤醒工具ToolStripMenuItem,
+            this.局域网扫描ToolStripMenuItem,
+            this.定时运行工具ToolStripMenuItem,
+            this.远程关机工具ToolStripMenuItem});
             this.定时关机设置ToolStripMenuItem.Name = "定时关机设置ToolStripMenuItem";
             resources.ApplyResources(this.定时关机设置ToolStripMenuItem, "定时关机设置ToolStripMenuItem");
             this.定时关机设置ToolStripMenuItem.Click += new System.EventHandler(this.定时关机设置ToolStripMenuItem_Click);
@@ -476,7 +510,6 @@
             this.关于ToolStripMenuItem1});
             this.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem";
             resources.ApplyResources(this.关于ToolStripMenuItem, "关于ToolStripMenuItem");
-            this.关于ToolStripMenuItem.Click += new System.EventHandler(this.关于ToolStripMenuItem_Click);
             // 
             // 帮助文档ToolStripMenuItem
             // 
@@ -667,6 +700,7 @@
             this.openUdpServerCbx.ForeColor = System.Drawing.SystemColors.Desktop;
             this.openUdpServerCbx.Name = "openUdpServerCbx";
             this.openUdpServerCbx.UseVisualStyleBackColor = false;
+            this.openUdpServerCbx.CheckedChanged += new System.EventHandler(this.openUdpServerCbx_CheckedChanged);
             // 
             // checkBox5
             // 
@@ -711,6 +745,7 @@
             this.sysSetGbx.Controls.Add(this.btnWin7Startup);
             this.sysSetGbx.Controls.Add(this.btnSoundSet);
             this.sysSetGbx.Controls.Add(this.btnOpenVlcPlayer);
+            this.sysSetGbx.Controls.Add(this.button1);
             this.sysSetGbx.Controls.Add(this.firewallSetBtn);
             this.sysSetGbx.Controls.Add(this.deskSetBtn);
             this.sysSetGbx.Controls.Add(this.systemPowerSetBtn);
@@ -732,6 +767,7 @@
             this.btnWin10Startup.ForeColor = System.Drawing.SystemColors.Control;
             this.btnWin10Startup.Name = "btnWin10Startup";
             this.btnWin10Startup.UseVisualStyleBackColor = false;
+            this.btnWin10Startup.Click += new System.EventHandler(this.btnWin10Startup_Click);
             // 
             // btnWin7Startup
             // 
@@ -830,6 +866,52 @@
             this.defaultConfigBtn.ForeColor = System.Drawing.SystemColors.Control;
             this.defaultConfigBtn.Name = "defaultConfigBtn";
             this.defaultConfigBtn.UseVisualStyleBackColor = false;
+            this.defaultConfigBtn.Click += new System.EventHandler(this.defaultConfigBtn_Click);
+            // 
+            // 网络唤醒工具ToolStripMenuItem
+            // 
+            this.网络唤醒工具ToolStripMenuItem.Name = "网络唤醒工具ToolStripMenuItem";
+            resources.ApplyResources(this.网络唤醒工具ToolStripMenuItem, "网络唤醒工具ToolStripMenuItem");
+            this.网络唤醒工具ToolStripMenuItem.Click += new System.EventHandler(this.网络唤醒工具ToolStripMenuItem_Click);
+            // 
+            // 开启ToolStripMenuItem
+            // 
+            this.开启ToolStripMenuItem.Image = global::TR_Player.Properties.Resources.Monitor1;
+            this.开启ToolStripMenuItem.Name = "开启ToolStripMenuItem";
+            resources.ApplyResources(this.开启ToolStripMenuItem, "开启ToolStripMenuItem");
+            this.开启ToolStripMenuItem.Click += new System.EventHandler(this.开启ToolStripMenuItem_Click);
+            // 
+            // 关闭ToolStripMenuItem
+            // 
+            this.关闭ToolStripMenuItem.Image = global::TR_Player.Properties.Resources.Monitor01;
+            this.关闭ToolStripMenuItem.Name = "关闭ToolStripMenuItem";
+            resources.ApplyResources(this.关闭ToolStripMenuItem, "关闭ToolStripMenuItem");
+            this.关闭ToolStripMenuItem.Click += new System.EventHandler(this.关闭ToolStripMenuItem_Click);
+            // 
+            // 局域网扫描ToolStripMenuItem
+            // 
+            this.局域网扫描ToolStripMenuItem.Name = "局域网扫描ToolStripMenuItem";
+            resources.ApplyResources(this.局域网扫描ToolStripMenuItem, "局域网扫描ToolStripMenuItem");
+            // 
+            // 定时运行工具ToolStripMenuItem
+            // 
+            this.定时运行工具ToolStripMenuItem.Name = "定时运行工具ToolStripMenuItem";
+            resources.ApplyResources(this.定时运行工具ToolStripMenuItem, "定时运行工具ToolStripMenuItem");
+            // 
+            // 远程关机工具ToolStripMenuItem
+            // 
+            this.远程关机工具ToolStripMenuItem.Name = "远程关机工具ToolStripMenuItem";
+            resources.ApplyResources(this.远程关机工具ToolStripMenuItem, "远程关机工具ToolStripMenuItem");
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.button1.CausesValidation = false;
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.ForeColor = System.Drawing.SystemColors.Control;
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.FirewallSetBtn_Click);
             // 
             // MainForm
             // 
@@ -963,6 +1045,16 @@
         private System.Windows.Forms.Button btnSoundSet;
         private System.Windows.Forms.Button btnWin10Startup;
         private System.Windows.Forms.Button btnWin7Startup;
+        private System.Windows.Forms.ToolStripMenuItem 隐藏主界面ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem 关于软件ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 网络唤醒工具ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 局域网扫描ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 定时运行工具ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 远程关机工具ToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
     }
 }
 
